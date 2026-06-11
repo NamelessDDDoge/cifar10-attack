@@ -1,0 +1,8 @@
+{"ts": "2026-06-11T20:56:10", "tag": "DIVERSE_VIT", "adv_dir": "results\\adv_diverse_robust_smoke20_r4", "processed": 1, "total": 8, "percent": 12.5, "batch": [0, 0]}
+{"ts": "2026-06-11T20:56:18", "tag": "DIVERSE_VIT", "adv_dir": "results\\adv_diverse_robust_smoke20_r4", "processed": 2, "total": 8, "percent": 25.0, "batch": [1, 1]}
+{"ts": "2026-06-11T20:56:26", "tag": "DIVERSE_VIT", "adv_dir": "results\\adv_diverse_robust_smoke20_r4", "processed": 3, "total": 8, "percent": 37.5, "batch": [2, 2]}
+{"ts": "2026-06-11T20:56:33", "tag": "DIVERSE_VIT", "adv_dir": "results\\adv_diverse_robust_smoke20_r4", "processed": 4, "total": 8, "percent": 50.0, "batch": [3, 3]}
+{"ts": "2026-06-11T20:56:42", "tag": "DIVERSE_VIT", "adv_dir": "results\\adv_diverse_robust_smoke20_r4", "processed": 5, "total": 8, "percent": 62.5, "batch": [4, 4]}
+{"ts": "2026-06-11T20:56:54", "tag": "DIVERSE_VIT", "adv_dir": "results\\adv_diverse_robust_smoke20_r4", "processed": 6, "total": 8, "percent": 75.0, "batch": [5, 5]}
+{"ts": "2026-06-11T20:57:06", "tag": "DIVERSE_VIT", "adv_dir": "results\\adv_diverse_robust_smoke20_r4", "processed": 7, "total": 8, "percent": 87.5, "batch": [6, 6]}
+{"ts": "2026-06-11T20:57:19", "tag": "DIVERSE_VIT", "adv_dir": "results\\adv_diverse_robust_smoke20_r4", "processed": 8, "total": 8, "percent": 100.0, "batch": [7, 7]}

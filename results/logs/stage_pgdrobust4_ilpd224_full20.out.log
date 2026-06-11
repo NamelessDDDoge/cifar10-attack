@@ -1,0 +1,66 @@
+21:39:00 [ILPD] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\ILPD_20260611_213900.log
+21:39:00 [ILPD] INFO  Resume: 0/500 done
+21:39:00 [ILPD] INFO  device=cuda
+21:39:00 [ILPD] INFO  Building models ...
+21:39:04 [ILPD] INFO    Loading pyramidnet164_a270_bn_cifar10 (primary) ...
+21:39:05 [ILPD] INFO    Loading wrn16_10_cifar10 ...
+21:39:05 [ILPD] INFO    Loading ViT surrogate vit_hf_nateraw ...
+21:39:26 [ILPD] INFO    Loading ViT surrogate vit_timm_edadaltocg ...
+21:39:31 [ILPD] INFO    Loading robust surrogate robust_engstrom ...
+21:39:32 [ILPD] INFO    Loading robust surrogate robust_rade_r18_extra ...
+21:39:32 [ILPD] INFO    Loading robust surrogate robust_rebuffi_70_16_cutmix_extra ...
+21:39:35 [ILPD] INFO    Loading robust surrogate robust_xcit_s12 ...
+21:39:36 [ILPD] INFO    Models ready: 1 primary + 7 extra
+21:39:36 [ILPD] INFO  Loading data ...
+21:39:37 [ILPD] INFO  Loading initial images from results\adv_pgd_robust4_full20_clean ...
+21:39:37 [ILPD] INFO  Images to process: 500
+21:39:46 [ILPD] INFO  progress 1/500 (0.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:39:51 [ILPD] INFO  progress 2/500 (0.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:39:57 [ILPD] INFO  progress 3/500 (0.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:03 [ILPD] INFO  progress 4/500 (0.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:08 [ILPD] INFO  progress 5/500 (1.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:15 [ILPD] INFO  progress 6/500 (1.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:21 [ILPD] INFO  progress 7/500 (1.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:28 [ILPD] INFO  progress 8/500 (1.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:33 [ILPD] INFO  progress 9/500 (1.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:39 [ILPD] INFO  progress 10/500 (2.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:45 [ILPD] INFO  progress 11/500 (2.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:51 [ILPD] INFO  progress 12/500 (2.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:40:57 [ILPD] INFO  progress 13/500 (2.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:02 [ILPD] INFO  progress 14/500 (2.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:07 [ILPD] INFO  progress 15/500 (3.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:13 [ILPD] INFO  progress 16/500 (3.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:18 [ILPD] INFO  progress 17/500 (3.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:23 [ILPD] INFO  progress 18/500 (3.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:29 [ILPD] INFO  progress 19/500 (3.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:34 [ILPD] INFO  progress 20/500 (4.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:39 [ILPD] INFO  progress 21/500 (4.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:45 [ILPD] INFO  progress 22/500 (4.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:51 [ILPD] INFO  progress 23/500 (4.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:41:58 [ILPD] INFO  progress 24/500 (4.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:05 [ILPD] INFO  progress 25/500 (5.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:12 [ILPD] INFO  progress 26/500 (5.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:19 [ILPD] INFO  progress 27/500 (5.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:25 [ILPD] INFO  progress 28/500 (5.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:32 [ILPD] INFO  progress 29/500 (5.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:38 [ILPD] INFO  progress 30/500 (6.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:43 [ILPD] INFO  progress 31/500 (6.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:50 [ILPD] INFO  progress 32/500 (6.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:42:58 [ILPD] INFO  progress 33/500 (6.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:04 [ILPD] INFO  progress 34/500 (6.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:12 [ILPD] INFO  progress 35/500 (7.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:18 [ILPD] INFO  progress 36/500 (7.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:24 [ILPD] INFO  progress 37/500 (7.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:30 [ILPD] INFO  progress 38/500 (7.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:37 [ILPD] INFO  progress 39/500 (7.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:42 [ILPD] INFO  progress 40/500 (8.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:47 [ILPD] INFO  progress 41/500 (8.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:53 [ILPD] INFO  progress 42/500 (8.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:43:59 [ILPD] INFO  progress 43/500 (8.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:44:07 [ILPD] INFO  progress 44/500 (8.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:44:14 [ILPD] INFO  progress 45/500 (9.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:44:23 [ILPD] INFO  progress 46/500 (9.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:44:30 [ILPD] INFO  progress 47/500 (9.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:44:39 [ILPD] INFO  progress 48/500 (9.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:44:51 [ILPD] INFO  progress 49/500 (9.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl
+21:45:05 [ILPD] INFO  progress 50/500 (10.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_stage_pgdrobust4_ilpd224_full20.jsonl

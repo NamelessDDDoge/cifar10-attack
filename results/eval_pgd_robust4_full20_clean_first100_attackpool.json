@@ -1,0 +1,59 @@
+{
+  "adv_dir": "C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\results\\adv_pgd_robust4_full20_clean",
+  "n_images": 100,
+  "images": [
+    "0.png",
+    "99.png"
+  ],
+  "mean_ssim": 0.9604296684265137,
+  "per_model": {
+    "robust_engstrom": {
+      "group": "Robust",
+      "asr": 0.21,
+      "n_attacked": 21,
+      "n_total": 100
+    },
+    "robust_rade_r18_extra": {
+      "group": "Robust",
+      "asr": 0.2,
+      "n_attacked": 20,
+      "n_total": 100
+    },
+    "robust_rebuffi_70_16_cutmix_extra": {
+      "group": "Robust",
+      "asr": 0.15,
+      "n_attacked": 15,
+      "n_total": 100
+    },
+    "robust_xcit_s12": {
+      "group": "Robust",
+      "asr": 0.15,
+      "n_attacked": 15,
+      "n_total": 100
+    }
+  },
+  "pools": {
+    "Robust": {
+      "models": [
+        "robust_engstrom",
+        "robust_rade_r18_extra",
+        "robust_rebuffi_70_16_cutmix_extra",
+        "robust_xcit_s12"
+      ],
+      "pool_asr": 0.17750000000000002,
+      "pool_ssim": 0.9604296684265137,
+      "pool_score": 17.04762661457062
+    },
+    "AttackPool_4Robust": {
+      "models": [
+        "robust_engstrom",
+        "robust_rade_r18_extra",
+        "robust_rebuffi_70_16_cutmix_extra",
+        "robust_xcit_s12"
+      ],
+      "pool_asr": 0.17750000000000002,
+      "pool_ssim": 0.9604296684265137,
+      "pool_score": 17.04762661457062
+    }
+  }
+}

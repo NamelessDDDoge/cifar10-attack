@@ -57,6 +57,7 @@ def pgd_attack(
     epsilon,
     loss_name,
     random_start=False,
+    asr_every=1,
     sbar=None,
 ):
     x0 = images.detach()
@@ -73,17 +74,21 @@ def pgd_attack(
         x = x.detach() + step_size * torch.sign(grad)
         x = torch.min(torch.max(x, x0 - epsilon), x0 + epsilon).clamp(0, 1)
 
-        asr = attack_pool_asr(models, x, labels)
+        should_eval_asr = asr_every > 0 and ((step + 1) % asr_every == 0 or step + 1 == steps)
+        asr = attack_pool_asr(models, x, labels) if should_eval_asr else None
         rec = {
             "step": step + 1,
             "loss": float(loss.detach().cpu()),
-            "pool_asr": float(asr.mean().detach().cpu()),
-            "asr": [float(v) for v in asr.detach().cpu()],
+            "pool_asr": float(asr.mean().detach().cpu()) if asr is not None else None,
+            "asr": [float(v) for v in asr.detach().cpu()] if asr is not None else None,
         }
         history.append(rec)
         if sbar is not None:
             sbar.update(1)
-            sbar.set_postfix(loss=f"{rec['loss']:.3f}", pool_asr=f"{rec['pool_asr']:.2f}")
+            postfix = {"loss": f"{rec['loss']:.3f}"}
+            if rec["pool_asr"] is not None:
+                postfix["pool_asr"] = f"{rec['pool_asr']:.2f}"
+            sbar.set_postfix(**postfix)
 
     return x.detach(), history
 
@@ -99,6 +104,12 @@ def parse_args():
     parser.add_argument("--robust-surrogates", default="none")
     parser.add_argument("--loss", choices=["ce", "margin"], default="ce")
     parser.add_argument("--random-start", action="store_true")
+    parser.add_argument(
+        "--asr-every",
+        type=int,
+        default=1,
+        help="Evaluate attack-pool ASR every N steps; 0 disables in-attack ASR logging",
+    )
     parser.add_argument("--seed", type=int, default=20260611)
     return parser.parse_args()
 
@@ -120,7 +131,7 @@ def main():
     logger.info(f"out_dir={adv_dir}")
     logger.info(
         f"steps={args.steps} batch_size={args.batch_size} loss={args.loss} "
-        f"random_start={args.random_start}"
+        f"random_start={args.random_start} asr_every={args.asr_every}"
     )
     logger.info(
         f"cnn_count={args.cnn_count} vit_surrogates={args.vit_surrogates} "
@@ -156,6 +167,7 @@ def main():
                     epsilon=EPS,
                     loss_name=args.loss,
                     random_start=args.random_start,
+                    asr_every=args.asr_every,
                     sbar=sbar,
                 )
 
@@ -171,7 +183,13 @@ def main():
                 total=limit, batch=[int(idxs[0]), int(idxs[-1])],
                 train_pool_asr=hist[-1]["pool_asr"] if hist else None,
             )
-            logger.info(f"Saved batch {batch_desc}; train_pool_asr={hist[-1]['pool_asr']:.4f}")
+            train_pool_asr = hist[-1]["pool_asr"] if hist else None
+            if train_pool_asr is None:
+                logger.info(f"Saved batch {batch_desc}; train_pool_asr=not_evaluated")
+            else:
+                logger.info(f"Saved batch {batch_desc}; train_pool_asr={train_pool_asr:.4f}")
+            if device.type == "cuda":
+                torch.cuda.empty_cache()
 
     logger.info(f"Done. {len(list(adv_dir.glob('*.png')))} PNGs in {adv_dir}")
 

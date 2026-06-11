@@ -16,9 +16,11 @@ import argparse
 import sys
 from pathlib import Path
 
+import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from PIL import Image
 from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -89,8 +91,8 @@ class ILPDAttacker:
             h.remove()
         self.hook = self.il_module.register_forward_hook(_hook_pd(ori_ilout, self.coef))
 
-    def attack(self, ori_img, label, sbar=None):
-        adv_img  = ori_img.clone()
+    def attack(self, ori_img, label, init_img=None, sbar=None):
+        adv_img = project_initial_images(ori_img, init_img, self.epsilon) if init_img is not None else ori_img.clone()
         momentum = torch.zeros_like(ori_img)
 
         for i in range(self.steps):
@@ -126,6 +128,25 @@ class ILPDAttacker:
 
         self.hook.remove()
         return adv_img.detach()
+
+
+def project_initial_images(clean: torch.Tensor, init: torch.Tensor, epsilon: float) -> torch.Tensor:
+    return torch.min(torch.max(init.detach(), clean - epsilon), clean + epsilon).clamp(0, 1)
+
+
+def load_init_data(init_dir: Path, names: list[str], device: torch.device) -> torch.Tensor:
+    images = []
+    missing = []
+    for name in names:
+        path = init_dir / name
+        if not path.exists():
+            missing.append(name)
+            continue
+        img = Image.open(path).convert("RGB")
+        images.append(np.array(img, dtype=np.float32) / 255.0)
+    if missing:
+        raise FileNotFoundError(f"{init_dir} missing initial image(s): {missing[:5]}")
+    return torch.tensor(np.stack(images), dtype=torch.float32).permute(0, 3, 1, 2).to(device)
 
 
 def _select_external_names(selection: str, specs) -> list[str]:
@@ -191,6 +212,8 @@ def main():
     parser.add_argument("--cnn-count", type=int, default=None)
     parser.add_argument("--vit-surrogates", default="none")
     parser.add_argument("--robust-surrogates", default="none")
+    parser.add_argument("--init-dir", default=None,
+                        help="Optional adversarial image directory used to initialize ILPD before projection")
     args = parser.parse_args()
 
     adv_dir = Path(args.out_dir)
@@ -223,6 +246,11 @@ def main():
 
     logger.info("Loading data ...")
     names, images, labels = load_data(device)
+    init_images = None
+    if args.init_dir:
+        init_dir = Path(args.init_dir)
+        logger.info(f"Loading initial images from {init_dir} ...")
+        init_images = load_init_data(init_dir, names[:limit], device)
 
     adv_dir.mkdir(parents=True, exist_ok=True)
     todo = [(i, n) for i, n in enumerate(names[:limit]) if n not in done_set]
@@ -235,10 +263,11 @@ def main():
 
             img_b = images[idxs]
             lbl_b = labels[idxs]
+            init_b = init_images[idxs] if init_images is not None else None
 
             batch_desc = f"[{idxs[0]}:{idxs[-1]+1}]"
             with step_pbar(args.steps, batch_desc) as sbar:
-                adv_b = attacker.attack(img_b, lbl_b, sbar=sbar)
+                adv_b = attacker.attack(img_b, lbl_b, init_img=init_b, sbar=sbar)
 
             save_adv_batch(adv_to_numpy(adv_b), list(names_b), adv_dir)
             ibar.update(len(chunk))

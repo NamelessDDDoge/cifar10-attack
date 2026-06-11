@@ -1,0 +1,108 @@
+{
+  "adv_dir": "C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\results\\adv_awt_mixed_smoke20_r4",
+  "n_images": 5,
+  "images": [
+    "0.png",
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png"
+  ],
+  "mean_ssim": 0.9418967366218567,
+  "per_model": {
+    "pyramidnet164_a270_bn_cifar10": {
+      "group": "CNN",
+      "asr": 0.8,
+      "n_attacked": 4,
+      "n_total": 5
+    },
+    "wrn16_10_cifar10": {
+      "group": "CNN",
+      "asr": 0.8,
+      "n_attacked": 4,
+      "n_total": 5
+    },
+    "vit_hf_nateraw": {
+      "group": "ViT",
+      "asr": 0.6,
+      "n_attacked": 3,
+      "n_total": 5
+    },
+    "vit_timm_edadaltocg": {
+      "group": "ViT",
+      "asr": 0.8,
+      "n_attacked": 4,
+      "n_total": 5
+    },
+    "robust_engstrom": {
+      "group": "Robust",
+      "asr": 0.0,
+      "n_attacked": 0,
+      "n_total": 5
+    },
+    "robust_rade_r18_extra": {
+      "group": "Robust",
+      "asr": 0.0,
+      "n_attacked": 0,
+      "n_total": 5
+    },
+    "robust_rebuffi_70_16_cutmix_extra": {
+      "group": "Robust",
+      "asr": 0.0,
+      "n_attacked": 0,
+      "n_total": 5
+    },
+    "robust_xcit_s12": {
+      "group": "Robust",
+      "asr": 0.0,
+      "n_attacked": 0,
+      "n_total": 5
+    }
+  },
+  "pools": {
+    "CNN": {
+      "models": [
+        "pyramidnet164_a270_bn_cifar10",
+        "wrn16_10_cifar10"
+      ],
+      "pool_asr": 0.8,
+      "pool_ssim": 0.9418967366218567,
+      "pool_score": 75.35173892974854
+    },
+    "ViT": {
+      "models": [
+        "vit_hf_nateraw",
+        "vit_timm_edadaltocg"
+      ],
+      "pool_asr": 0.7,
+      "pool_ssim": 0.9418967366218567,
+      "pool_score": 65.93277156352997
+    },
+    "Robust": {
+      "models": [
+        "robust_engstrom",
+        "robust_rade_r18_extra",
+        "robust_rebuffi_70_16_cutmix_extra",
+        "robust_xcit_s12"
+      ],
+      "pool_asr": 0.0,
+      "pool_ssim": 0.9418967366218567,
+      "pool_score": 0.0
+    },
+    "AttackPool_2CNN_2ViT_4Robust": {
+      "models": [
+        "pyramidnet164_a270_bn_cifar10",
+        "wrn16_10_cifar10",
+        "vit_hf_nateraw",
+        "vit_timm_edadaltocg",
+        "robust_engstrom",
+        "robust_rade_r18_extra",
+        "robust_rebuffi_70_16_cutmix_extra",
+        "robust_xcit_s12"
+      ],
+      "pool_asr": 0.375,
+      "pool_ssim": 0.9418967366218567,
+      "pool_score": 35.321127623319626
+    }
+  }
+}

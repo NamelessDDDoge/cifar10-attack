@@ -1,0 +1,136 @@
+{
+  "adv_dir": "results\\adv_diverse_robust_smoke20_r4",
+  "limit": 8,
+  "mean_ssim": 0.9517561793327332,
+  "families": {
+    "CNN": [
+      {
+        "model": "pyramidnet164_a270_bn_cifar10",
+        "success": 1,
+        "total": 8,
+        "asr": 0.125,
+        "failed_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "model": "wrn16_10_cifar10",
+        "success": 0,
+        "total": 8,
+        "asr": 0.0,
+        "failed_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "ViT": [
+      {
+        "model": "vit_hf_nateraw",
+        "success": 0,
+        "total": 8,
+        "asr": 0.0,
+        "failed_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "model": "vit_timm_edadaltocg",
+        "success": 1,
+        "total": 8,
+        "asr": 0.125,
+        "failed_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "Robust": [
+      {
+        "model": "robust_engstrom",
+        "success": 0,
+        "total": 8,
+        "asr": 0.0,
+        "failed_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "model": "robust_rade_r18_extra",
+        "success": 2,
+        "total": 8,
+        "asr": 0.25,
+        "failed_indices": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "model": "robust_rebuffi_70_16_cutmix_extra",
+        "success": 1,
+        "total": 8,
+        "asr": 0.125,
+        "failed_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "model": "robust_xcit_s12",
+        "success": 0,
+        "total": 8,
+        "asr": 0.0,
+        "failed_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  }
+}

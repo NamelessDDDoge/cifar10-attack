@@ -1,0 +1,113 @@
+20:43:59 [PGD] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\PGD_20260611_204359.log
+20:43:59 [PGD] INFO  device=cuda
+20:43:59 [PGD] INFO  out_dir=workspace\results\adv_pgd_robust4_full20
+20:43:59 [PGD] INFO  steps=20 batch_size=1 loss=ce random_start=False
+20:43:59 [PGD] INFO  cnn_count=0 vit_surrogates=none robust_surrogates=robust_engstrom,robust_rade_r18_extra,robust_rebuffi_70_16_cutmix_extra,robust_xcit_s12
+20:44:02 [PGD] INFO    Loading robust surrogate robust_engstrom ...
+20:44:05 [PGD] INFO    Loading robust surrogate robust_rade_r18_extra ...
+20:44:05 [PGD] INFO    Loading robust surrogate robust_rebuffi_70_16_cutmix_extra ...
+20:44:08 [PGD] INFO    Loading robust surrogate robust_xcit_s12 ...
+20:44:08 [PGD] INFO  Attack pool ready: 4 models (robust_engstrom, robust_rade_r18_extra, robust_rebuffi_70_16_cutmix_extra, robust_xcit_s12)
+20:44:09 [PGD] INFO  Images to process: 500/500
+20:44:13 [PGD] INFO  progress 1/500 (0.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:13 [PGD] INFO  Saved batch [0:1]; train_pool_asr=0.0000
+20:44:16 [PGD] INFO  progress 2/500 (0.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:16 [PGD] INFO  Saved batch [1:2]; train_pool_asr=0.0000
+20:44:20 [PGD] INFO  progress 3/500 (0.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:20 [PGD] INFO  Saved batch [2:3]; train_pool_asr=0.7500
+20:44:24 [PGD] INFO  progress 4/500 (0.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:24 [PGD] INFO  Saved batch [3:4]; train_pool_asr=0.0000
+20:44:27 [PGD] INFO  progress 5/500 (1.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:27 [PGD] INFO  Saved batch [4:5]; train_pool_asr=0.5000
+20:44:31 [PGD] INFO  progress 6/500 (1.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:31 [PGD] INFO  Saved batch [5:6]; train_pool_asr=0.2500
+20:44:34 [PGD] INFO  progress 7/500 (1.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:34 [PGD] INFO  Saved batch [6:7]; train_pool_asr=0.0000
+20:44:38 [PGD] INFO  progress 8/500 (1.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:38 [PGD] INFO  Saved batch [7:8]; train_pool_asr=0.0000
+20:44:41 [PGD] INFO  progress 9/500 (1.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:41 [PGD] INFO  Saved batch [8:9]; train_pool_asr=0.0000
+20:44:44 [PGD] INFO  progress 10/500 (2.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:44 [PGD] INFO  Saved batch [9:10]; train_pool_asr=0.0000
+20:44:49 [PGD] INFO  progress 11/500 (2.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:49 [PGD] INFO  Saved batch [10:11]; train_pool_asr=0.2500
+20:44:52 [PGD] INFO  progress 12/500 (2.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:52 [PGD] INFO  Saved batch [11:12]; train_pool_asr=0.0000
+20:44:57 [PGD] INFO  progress 13/500 (2.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:44:57 [PGD] INFO  Saved batch [12:13]; train_pool_asr=1.0000
+20:45:02 [PGD] INFO  progress 14/500 (2.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:02 [PGD] INFO  Saved batch [13:14]; train_pool_asr=0.0000
+20:45:08 [PGD] INFO  progress 15/500 (3.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:08 [PGD] INFO  Saved batch [14:15]; train_pool_asr=1.0000
+20:45:13 [PGD] INFO  progress 16/500 (3.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:13 [PGD] INFO  Saved batch [15:16]; train_pool_asr=0.5000
+20:45:18 [PGD] INFO  progress 17/500 (3.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:18 [PGD] INFO  Saved batch [16:17]; train_pool_asr=0.0000
+20:45:23 [PGD] INFO  progress 18/500 (3.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:23 [PGD] INFO  Saved batch [17:18]; train_pool_asr=0.0000
+20:45:29 [PGD] INFO  progress 19/500 (3.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:29 [PGD] INFO  Saved batch [18:19]; train_pool_asr=0.0000
+20:45:34 [PGD] INFO  progress 20/500 (4.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:34 [PGD] INFO  Saved batch [19:20]; train_pool_asr=0.2500
+20:45:39 [PGD] INFO  progress 21/500 (4.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:39 [PGD] INFO  Saved batch [20:21]; train_pool_asr=0.0000
+20:45:44 [PGD] INFO  progress 22/500 (4.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:44 [PGD] INFO  Saved batch [21:22]; train_pool_asr=0.0000
+20:45:50 [PGD] INFO  progress 23/500 (4.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:50 [PGD] INFO  Saved batch [22:23]; train_pool_asr=0.0000
+20:45:55 [PGD] INFO  progress 24/500 (4.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:55 [PGD] INFO  Saved batch [23:24]; train_pool_asr=0.0000
+20:45:58 [PGD] INFO  progress 25/500 (5.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:45:58 [PGD] INFO  Saved batch [24:25]; train_pool_asr=1.0000
+20:46:01 [PGD] INFO  progress 26/500 (5.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:01 [PGD] INFO  Saved batch [25:26]; train_pool_asr=0.0000
+20:46:05 [PGD] INFO  progress 27/500 (5.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:05 [PGD] INFO  Saved batch [26:27]; train_pool_asr=1.0000
+20:46:08 [PGD] INFO  progress 28/500 (5.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:08 [PGD] INFO  Saved batch [27:28]; train_pool_asr=0.0000
+20:46:12 [PGD] INFO  progress 29/500 (5.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:12 [PGD] INFO  Saved batch [28:29]; train_pool_asr=0.0000
+20:46:16 [PGD] INFO  progress 30/500 (6.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:16 [PGD] INFO  Saved batch [29:30]; train_pool_asr=0.0000
+20:46:19 [PGD] INFO  progress 31/500 (6.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:19 [PGD] INFO  Saved batch [30:31]; train_pool_asr=0.2500
+20:46:23 [PGD] INFO  progress 32/500 (6.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:23 [PGD] INFO  Saved batch [31:32]; train_pool_asr=0.0000
+20:46:27 [PGD] INFO  progress 33/500 (6.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:27 [PGD] INFO  Saved batch [32:33]; train_pool_asr=0.0000
+20:46:30 [PGD] INFO  progress 34/500 (6.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:30 [PGD] INFO  Saved batch [33:34]; train_pool_asr=0.0000
+20:46:34 [PGD] INFO  progress 35/500 (7.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:34 [PGD] INFO  Saved batch [34:35]; train_pool_asr=0.0000
+20:46:37 [PGD] INFO  progress 36/500 (7.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:37 [PGD] INFO  Saved batch [35:36]; train_pool_asr=0.0000
+20:46:40 [PGD] INFO  progress 37/500 (7.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:40 [PGD] INFO  Saved batch [36:37]; train_pool_asr=0.2500
+20:46:44 [PGD] INFO  progress 38/500 (7.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:44 [PGD] INFO  Saved batch [37:38]; train_pool_asr=0.0000
+20:46:47 [PGD] INFO  progress 39/500 (7.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:47 [PGD] INFO  Saved batch [38:39]; train_pool_asr=0.7500
+20:46:51 [PGD] INFO  progress 40/500 (8.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:51 [PGD] INFO  Saved batch [39:40]; train_pool_asr=1.0000
+20:46:54 [PGD] INFO  progress 41/500 (8.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:54 [PGD] INFO  Saved batch [40:41]; train_pool_asr=1.0000
+20:46:57 [PGD] INFO  progress 42/500 (8.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:46:57 [PGD] INFO  Saved batch [41:42]; train_pool_asr=0.0000
+20:47:01 [PGD] INFO  progress 43/500 (8.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:01 [PGD] INFO  Saved batch [42:43]; train_pool_asr=0.2500
+20:47:04 [PGD] INFO  progress 44/500 (8.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:04 [PGD] INFO  Saved batch [43:44]; train_pool_asr=0.0000
+20:47:08 [PGD] INFO  progress 45/500 (9.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:08 [PGD] INFO  Saved batch [44:45]; train_pool_asr=0.0000
+20:47:12 [PGD] INFO  progress 46/500 (9.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:12 [PGD] INFO  Saved batch [45:46]; train_pool_asr=0.0000
+20:47:15 [PGD] INFO  progress 47/500 (9.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:15 [PGD] INFO  Saved batch [46:47]; train_pool_asr=0.0000
+20:47:19 [PGD] INFO  progress 48/500 (9.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:19 [PGD] INFO  Saved batch [47:48]; train_pool_asr=1.0000
+20:47:23 [PGD] INFO  progress 49/500 (9.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:23 [PGD] INFO  Saved batch [48:49]; train_pool_asr=0.0000
+20:47:26 [PGD] INFO  progress 50/500 (10.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:26 [PGD] INFO  Saved batch [49:50]; train_pool_asr=0.0000
+20:47:30 [PGD] INFO  progress 51/500 (10.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_robust4_full20.jsonl
+20:47:30 [PGD] INFO  Saved batch [50:51]; train_pool_asr=0.0000

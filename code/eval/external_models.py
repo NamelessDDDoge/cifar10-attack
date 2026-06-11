@@ -6,6 +6,7 @@ They are used to sanity-check transfer against different architectures and
 training recipes; attack code must not use them for gradients or tuning.
 """
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Callable, Iterable
 import sys
 import types
@@ -253,7 +254,13 @@ def load_external_model(spec_or_name: ExternalModelSpec | str, device: str | tor
             state_stub.EvaluationState = EvaluationState
             sys.modules["autoattack.state"] = state_stub
         from robustbench.utils import load_model
-        model = load_model(model_name=spec.model_id, dataset="cifar10", threat_model="Linf")
+        model_dir = Path(__file__).resolve().parents[3] / "models"
+        model = load_model(
+            model_name=spec.model_id,
+            model_dir=model_dir,
+            dataset="cifar10",
+            threat_model="Linf",
+        )
         wrapped = model
     elif spec.loader == "torch_hub":
         model = torch.hub.load(

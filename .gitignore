@@ -16,8 +16,8 @@ __pycache__/
 dist/
 build/
 
-# experiment outputs (optional — keep results/ in git)
-# results/
+# adversarial example image outputs (artifacts)
+results/adv_*/
 
 # jupyter
 .ipynb_checkpoints/
