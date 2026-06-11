@@ -2,9 +2,14 @@
 models/
 **/*.pth
 **/*.pt
+**/*.pth.tar
+**/*.bin
+**/*.ckpt
+**/*.safetensors
 
 # large data archives
 data/images.zip
+*.zip
 
 # Python cache
 __pycache__/
@@ -18,6 +23,14 @@ build/
 
 # adversarial example image outputs (artifacts)
 results/adv_*/
+results/images/
+results/logs/
+results/full_run_logs/
+results/lowmem_probe/logs/
+results/progress/
+*.log
+*.out.log
+*.err.log
 
 # jupyter
 .ipynb_checkpoints/

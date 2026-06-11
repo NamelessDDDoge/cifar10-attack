@@ -1,0 +1,65 @@
+{
+  "adv_dir": "C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\results\\adv_pgd_robust4_full20_clean",
+  "n_images": 500,
+  "mean_ssim": 0.958450198173523,
+  "per_model": {
+    "vit_hf_nateraw": {
+      "group": "ViT",
+      "asr": 0.132,
+      "n_attacked": 66,
+      "n_total": 500
+    },
+    "vit_timm_edadaltocg": {
+      "group": "ViT",
+      "asr": 0.13,
+      "n_attacked": 65,
+      "n_total": 500
+    },
+    "robust_engstrom": {
+      "group": "Robust",
+      "asr": 0.272,
+      "n_attacked": 136,
+      "n_total": 500
+    },
+    "robust_rade_r18_extra": {
+      "group": "Robust",
+      "asr": 0.216,
+      "n_attacked": 108,
+      "n_total": 500
+    },
+    "robust_rebuffi_70_16_cutmix_extra": {
+      "group": "Robust",
+      "asr": 0.146,
+      "n_attacked": 73,
+      "n_total": 500
+    },
+    "robust_xcit_s12": {
+      "group": "Robust",
+      "asr": 0.186,
+      "n_attacked": 93,
+      "n_total": 500
+    }
+  },
+  "pools": {
+    "ViT": {
+      "models": [
+        "vit_hf_nateraw",
+        "vit_timm_edadaltocg"
+      ],
+      "pool_asr": 0.131,
+      "pool_ssim": 0.958450198173523,
+      "pool_score": 12.555697596073152
+    },
+    "Robust": {
+      "models": [
+        "robust_engstrom",
+        "robust_rade_r18_extra",
+        "robust_rebuffi_70_16_cutmix_extra",
+        "robust_xcit_s12"
+      ],
+      "pool_asr": 0.20500000000000002,
+      "pool_ssim": 0.958450198173523,
+      "pool_score": 19.64822906255722
+    }
+  }
+}

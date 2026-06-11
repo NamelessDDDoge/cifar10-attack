@@ -1,1 +1,0 @@
-{"batch": [0, 0], "names": ["0.png"], "model_name": "vit_base_patch16_224", "label_mode": "auto", "true_labels": [9], "attack_labels": [867], "source_predictions": [867], "eps": 0.03137254901960784, "alpha": 0.03137254901960784, "steps": 1, "max_linf": 0.03137257695198059}
