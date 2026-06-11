@@ -1,0 +1,208 @@
+17:25:09 [ATT] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\ATT_20260611_172509.log
+17:25:09 [ATT] INFO  device=cuda
+17:25:09 [ATT] INFO  out_dir=workspace\results\adv_att_pilot
+17:25:09 [ATT] INFO  model=vit_base_patch16_224 steps=10 eps=0.03137255 alpha=0.00313725 label_mode=auto
+17:25:16 [ATT] INFO  Loading ATT source model vit_base_patch16_224
+17:25:27 [ATT] INFO  Loading data and true labels
+17:25:28 [ATT] INFO  Images to process: 100/100
+17:25:33 [ATT] INFO  progress 1/100 (1.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:33 [ATT] INFO  Saved batch [0:1]; max_linf=0.031373
+17:25:38 [ATT] INFO  progress 2/100 (2.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:38 [ATT] INFO  Saved batch [1:2]; max_linf=0.031373
+17:25:41 [ATT] INFO  progress 3/100 (3.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:41 [ATT] INFO  Saved batch [2:3]; max_linf=0.031373
+17:25:43 [ATT] INFO  progress 4/100 (4.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:43 [ATT] INFO  Saved batch [3:4]; max_linf=0.031373
+17:25:45 [ATT] INFO  progress 5/100 (5.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:45 [ATT] INFO  Saved batch [4:5]; max_linf=0.031373
+17:25:46 [ATT] INFO  progress 6/100 (6.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:46 [ATT] INFO  Saved batch [5:6]; max_linf=0.031373
+17:25:48 [ATT] INFO  progress 7/100 (7.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:48 [ATT] INFO  Saved batch [6:7]; max_linf=0.031373
+17:25:51 [ATT] INFO  progress 8/100 (8.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:51 [ATT] INFO  Saved batch [7:8]; max_linf=0.031373
+17:25:53 [ATT] INFO  progress 9/100 (9.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:53 [ATT] INFO  Saved batch [8:9]; max_linf=0.031373
+17:25:55 [ATT] INFO  progress 10/100 (10.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:55 [ATT] INFO  Saved batch [9:10]; max_linf=0.031373
+17:25:56 [ATT] INFO  progress 11/100 (11.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:56 [ATT] INFO  Saved batch [10:11]; max_linf=0.031373
+17:25:58 [ATT] INFO  progress 12/100 (12.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:25:58 [ATT] INFO  Saved batch [11:12]; max_linf=0.031373
+17:26:00 [ATT] INFO  progress 13/100 (13.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:00 [ATT] INFO  Saved batch [12:13]; max_linf=0.031373
+17:26:02 [ATT] INFO  progress 14/100 (14.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:02 [ATT] INFO  Saved batch [13:14]; max_linf=0.031373
+17:26:03 [ATT] INFO  progress 15/100 (15.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:03 [ATT] INFO  Saved batch [14:15]; max_linf=0.031373
+17:26:05 [ATT] INFO  progress 16/100 (16.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:05 [ATT] INFO  Saved batch [15:16]; max_linf=0.031373
+17:26:07 [ATT] INFO  progress 17/100 (17.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:07 [ATT] INFO  Saved batch [16:17]; max_linf=0.031373
+17:26:09 [ATT] INFO  progress 18/100 (18.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:09 [ATT] INFO  Saved batch [17:18]; max_linf=0.031373
+17:26:11 [ATT] INFO  progress 19/100 (19.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:11 [ATT] INFO  Saved batch [18:19]; max_linf=0.031373
+17:26:13 [ATT] INFO  progress 20/100 (20.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:13 [ATT] INFO  Saved batch [19:20]; max_linf=0.031373
+17:26:14 [ATT] INFO  progress 21/100 (21.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:14 [ATT] INFO  Saved batch [20:21]; max_linf=0.031373
+17:26:16 [ATT] INFO  progress 22/100 (22.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:16 [ATT] INFO  Saved batch [21:22]; max_linf=0.031373
+17:26:17 [ATT] INFO  progress 23/100 (23.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:17 [ATT] INFO  Saved batch [22:23]; max_linf=0.031373
+17:26:19 [ATT] INFO  progress 24/100 (24.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:19 [ATT] INFO  Saved batch [23:24]; max_linf=0.031373
+17:26:20 [ATT] INFO  progress 25/100 (25.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:20 [ATT] INFO  Saved batch [24:25]; max_linf=0.031373
+17:26:22 [ATT] INFO  progress 26/100 (26.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:22 [ATT] INFO  Saved batch [25:26]; max_linf=0.031373
+17:26:23 [ATT] INFO  progress 27/100 (27.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:23 [ATT] INFO  Saved batch [26:27]; max_linf=0.031373
+17:26:25 [ATT] INFO  progress 28/100 (28.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:25 [ATT] INFO  Saved batch [27:28]; max_linf=0.031373
+17:26:27 [ATT] INFO  progress 29/100 (29.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:27 [ATT] INFO  Saved batch [28:29]; max_linf=0.031373
+17:26:28 [ATT] INFO  progress 30/100 (30.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:28 [ATT] INFO  Saved batch [29:30]; max_linf=0.031373
+17:26:30 [ATT] INFO  progress 31/100 (31.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:30 [ATT] INFO  Saved batch [30:31]; max_linf=0.031373
+17:26:31 [ATT] INFO  progress 32/100 (32.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:31 [ATT] INFO  Saved batch [31:32]; max_linf=0.031373
+17:26:33 [ATT] INFO  progress 33/100 (33.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:33 [ATT] INFO  Saved batch [32:33]; max_linf=0.031373
+17:26:34 [ATT] INFO  progress 34/100 (34.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:34 [ATT] INFO  Saved batch [33:34]; max_linf=0.031373
+17:26:36 [ATT] INFO  progress 35/100 (35.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:36 [ATT] INFO  Saved batch [34:35]; max_linf=0.031373
+17:26:37 [ATT] INFO  progress 36/100 (36.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:37 [ATT] INFO  Saved batch [35:36]; max_linf=0.031373
+17:26:39 [ATT] INFO  progress 37/100 (37.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:39 [ATT] INFO  Saved batch [36:37]; max_linf=0.031373
+17:26:41 [ATT] INFO  progress 38/100 (38.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:41 [ATT] INFO  Saved batch [37:38]; max_linf=0.031373
+17:26:43 [ATT] INFO  progress 39/100 (39.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:43 [ATT] INFO  Saved batch [38:39]; max_linf=0.031373
+17:26:45 [ATT] INFO  progress 40/100 (40.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:45 [ATT] INFO  Saved batch [39:40]; max_linf=0.031373
+17:26:48 [ATT] INFO  progress 41/100 (41.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:48 [ATT] INFO  Saved batch [40:41]; max_linf=0.031373
+17:26:50 [ATT] INFO  progress 42/100 (42.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:50 [ATT] INFO  Saved batch [41:42]; max_linf=0.031373
+17:26:54 [ATT] INFO  progress 43/100 (43.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:54 [ATT] INFO  Saved batch [42:43]; max_linf=0.031373
+17:26:59 [ATT] INFO  progress 44/100 (44.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:26:59 [ATT] INFO  Saved batch [43:44]; max_linf=0.031373
+17:27:04 [ATT] INFO  progress 45/100 (45.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:04 [ATT] INFO  Saved batch [44:45]; max_linf=0.031373
+17:27:08 [ATT] INFO  progress 46/100 (46.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:08 [ATT] INFO  Saved batch [45:46]; max_linf=0.031373
+17:27:13 [ATT] INFO  progress 47/100 (47.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:13 [ATT] INFO  Saved batch [46:47]; max_linf=0.031373
+17:27:17 [ATT] INFO  progress 48/100 (48.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:17 [ATT] INFO  Saved batch [47:48]; max_linf=0.031373
+17:27:22 [ATT] INFO  progress 49/100 (49.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:22 [ATT] INFO  Saved batch [48:49]; max_linf=0.031373
+17:27:27 [ATT] INFO  progress 50/100 (50.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:27 [ATT] INFO  Saved batch [49:50]; max_linf=0.031373
+17:27:32 [ATT] INFO  progress 51/100 (51.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:32 [ATT] INFO  Saved batch [50:51]; max_linf=0.031373
+17:27:38 [ATT] INFO  progress 52/100 (52.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:38 [ATT] INFO  Saved batch [51:52]; max_linf=0.031373
+17:27:44 [ATT] INFO  progress 53/100 (53.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:44 [ATT] INFO  Saved batch [52:53]; max_linf=0.031373
+17:27:50 [ATT] INFO  progress 54/100 (54.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:50 [ATT] INFO  Saved batch [53:54]; max_linf=0.031373
+17:27:55 [ATT] INFO  progress 55/100 (55.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:27:55 [ATT] INFO  Saved batch [54:55]; max_linf=0.031373
+17:28:00 [ATT] INFO  progress 56/100 (56.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:00 [ATT] INFO  Saved batch [55:56]; max_linf=0.031373
+17:28:06 [ATT] INFO  progress 57/100 (57.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:06 [ATT] INFO  Saved batch [56:57]; max_linf=0.031373
+17:28:11 [ATT] INFO  progress 58/100 (58.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:11 [ATT] INFO  Saved batch [57:58]; max_linf=0.031373
+17:28:17 [ATT] INFO  progress 59/100 (59.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:17 [ATT] INFO  Saved batch [58:59]; max_linf=0.031373
+17:28:22 [ATT] INFO  progress 60/100 (60.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:22 [ATT] INFO  Saved batch [59:60]; max_linf=0.031373
+17:28:28 [ATT] INFO  progress 61/100 (61.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:28 [ATT] INFO  Saved batch [60:61]; max_linf=0.031373
+17:28:33 [ATT] INFO  progress 62/100 (62.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:33 [ATT] INFO  Saved batch [61:62]; max_linf=0.031373
+17:28:39 [ATT] INFO  progress 63/100 (63.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:39 [ATT] INFO  Saved batch [62:63]; max_linf=0.031373
+17:28:45 [ATT] INFO  progress 64/100 (64.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:45 [ATT] INFO  Saved batch [63:64]; max_linf=0.031373
+17:28:51 [ATT] INFO  progress 65/100 (65.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:51 [ATT] INFO  Saved batch [64:65]; max_linf=0.031373
+17:28:56 [ATT] INFO  progress 66/100 (66.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:28:56 [ATT] INFO  Saved batch [65:66]; max_linf=0.031373
+17:29:02 [ATT] INFO  progress 67/100 (67.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:02 [ATT] INFO  Saved batch [66:67]; max_linf=0.031373
+17:29:08 [ATT] INFO  progress 68/100 (68.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:08 [ATT] INFO  Saved batch [67:68]; max_linf=0.031373
+17:29:14 [ATT] INFO  progress 69/100 (69.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:14 [ATT] INFO  Saved batch [68:69]; max_linf=0.031373
+17:29:21 [ATT] INFO  progress 70/100 (70.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:21 [ATT] INFO  Saved batch [69:70]; max_linf=0.031373
+17:29:29 [ATT] INFO  progress 71/100 (71.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:29 [ATT] INFO  Saved batch [70:71]; max_linf=0.031373
+17:29:37 [ATT] INFO  progress 72/100 (72.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:37 [ATT] INFO  Saved batch [71:72]; max_linf=0.031373
+17:29:44 [ATT] INFO  progress 73/100 (73.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:44 [ATT] INFO  Saved batch [72:73]; max_linf=0.031373
+17:29:51 [ATT] INFO  progress 74/100 (74.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:51 [ATT] INFO  Saved batch [73:74]; max_linf=0.031373
+17:29:58 [ATT] INFO  progress 75/100 (75.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:29:58 [ATT] INFO  Saved batch [74:75]; max_linf=0.031373
+17:30:05 [ATT] INFO  progress 76/100 (76.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:30:05 [ATT] INFO  Saved batch [75:76]; max_linf=0.031373
+17:30:12 [ATT] INFO  progress 77/100 (77.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:30:12 [ATT] INFO  Saved batch [76:77]; max_linf=0.031373
+17:30:18 [ATT] INFO  progress 78/100 (78.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:30:18 [ATT] INFO  Saved batch [77:78]; max_linf=0.031373
+17:30:25 [ATT] INFO  progress 79/100 (79.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:30:25 [ATT] INFO  Saved batch [78:79]; max_linf=0.031373
+17:30:32 [ATT] INFO  progress 80/100 (80.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:30:32 [ATT] INFO  Saved batch [79:80]; max_linf=0.031373
+17:30:37 [ATT] INFO  progress 81/100 (81.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:30:37 [ATT] INFO  Saved batch [80:81]; max_linf=0.031373
+17:30:43 [ATT] INFO  progress 82/100 (82.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:30:43 [ATT] INFO  Saved batch [81:82]; max_linf=0.031373
+17:30:50 [ATT] INFO  progress 83/100 (83.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:30:50 [ATT] INFO  Saved batch [82:83]; max_linf=0.031373
+17:31:05 [ATT] INFO  progress 84/100 (84.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:31:05 [ATT] INFO  Saved batch [83:84]; max_linf=0.031373
+17:31:19 [ATT] INFO  progress 85/100 (85.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:31:19 [ATT] INFO  Saved batch [84:85]; max_linf=0.031373
+17:31:33 [ATT] INFO  progress 86/100 (86.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:31:33 [ATT] INFO  Saved batch [85:86]; max_linf=0.031373
+17:32:06 [ATT] INFO  progress 87/100 (87.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:32:06 [ATT] INFO  Saved batch [86:87]; max_linf=0.031373
+17:32:44 [ATT] INFO  progress 88/100 (88.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:32:44 [ATT] INFO  Saved batch [87:88]; max_linf=0.031373
+17:34:12 [ATT] INFO  progress 89/100 (89.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:34:12 [ATT] INFO  Saved batch [88:89]; max_linf=0.031373
+17:35:04 [ATT] INFO  progress 90/100 (90.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:35:04 [ATT] INFO  Saved batch [89:90]; max_linf=0.031373
+17:36:00 [ATT] INFO  progress 91/100 (91.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:36:00 [ATT] INFO  Saved batch [90:91]; max_linf=0.031373
+17:36:53 [ATT] INFO  progress 92/100 (92.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:36:53 [ATT] INFO  Saved batch [91:92]; max_linf=0.031373
+17:37:53 [ATT] INFO  progress 93/100 (93.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:37:53 [ATT] INFO  Saved batch [92:93]; max_linf=0.031373
+17:38:56 [ATT] INFO  progress 94/100 (94.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:38:56 [ATT] INFO  Saved batch [93:94]; max_linf=0.031373
+17:40:06 [ATT] INFO  progress 95/100 (95.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:40:06 [ATT] INFO  Saved batch [94:95]; max_linf=0.031373
+17:42:14 [ATT] INFO  progress 96/100 (96.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:42:14 [ATT] INFO  Saved batch [95:96]; max_linf=0.031373
+17:42:19 [ATT] INFO  progress 97/100 (97.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:42:19 [ATT] INFO  Saved batch [96:97]; max_linf=0.031373
+17:42:45 [ATT] INFO  progress 98/100 (98.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:42:45 [ATT] INFO  Saved batch [97:98]; max_linf=0.031373
+17:42:48 [ATT] INFO  progress 99/100 (99.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:42:48 [ATT] INFO  Saved batch [98:99]; max_linf=0.031373
+17:42:51 [ATT] INFO  progress 100/100 (100.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_pilot.jsonl
+17:42:51 [ATT] INFO  Saved batch [99:100]; max_linf=0.031373
+17:42:51 [ATT] INFO  Done. 100 PNGs in workspace\results\adv_att_pilot

@@ -1,0 +1,32 @@
+20:34:57 [PGD] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\PGD_20260611_203457.log
+20:34:57 [PGD] INFO  device=cuda
+20:34:57 [PGD] INFO  out_dir=workspace\results\adv_pgd_mixed_smoke20_r4
+20:34:57 [PGD] INFO  steps=20 batch_size=1 loss=ce random_start=False
+20:34:57 [PGD] INFO  cnn_count=2 vit_surrogates=vit_hf_nateraw,vit_timm_edadaltocg robust_surrogates=robust_engstrom,robust_rade_r18_extra,robust_rebuffi_70_16_cutmix_extra,robust_xcit_s12
+20:34:59 [PGD] INFO    Loading CNN surrogate pyramidnet164_a270_bn_cifar10 ...
+20:35:00 [PGD] INFO    Loading CNN surrogate wrn16_10_cifar10 ...
+20:35:01 [PGD] INFO    Loading ViT surrogate vit_hf_nateraw ...
+20:35:12 [PGD] INFO    Loading ViT surrogate vit_timm_edadaltocg ...
+20:35:15 [PGD] INFO    Loading robust surrogate robust_engstrom ...
+20:35:16 [PGD] INFO    Loading robust surrogate robust_rade_r18_extra ...
+20:35:16 [PGD] INFO    Loading robust surrogate robust_rebuffi_70_16_cutmix_extra ...
+20:35:19 [PGD] INFO    Loading robust surrogate robust_xcit_s12 ...
+20:35:20 [PGD] INFO  Attack pool ready: 8 models (pyramidnet164_a270_bn_cifar10, wrn16_10_cifar10, vit_hf_nateraw, vit_timm_edadaltocg, robust_engstrom, robust_rade_r18_extra, robust_rebuffi_70_16_cutmix_extra, robust_xcit_s12)
+20:35:20 [PGD] INFO  Images to process: 8/8
+20:35:28 [PGD] INFO  progress 1/8 (12.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_mixed_smoke20_r4.jsonl
+20:35:28 [PGD] INFO  Saved batch [0:1]; train_pool_asr=0.2500
+20:35:34 [PGD] INFO  progress 2/8 (25.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_mixed_smoke20_r4.jsonl
+20:35:34 [PGD] INFO  Saved batch [1:2]; train_pool_asr=0.2500
+20:35:41 [PGD] INFO  progress 3/8 (37.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_mixed_smoke20_r4.jsonl
+20:35:41 [PGD] INFO  Saved batch [2:3]; train_pool_asr=0.5000
+20:35:47 [PGD] INFO  progress 4/8 (50.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_mixed_smoke20_r4.jsonl
+20:35:47 [PGD] INFO  Saved batch [3:4]; train_pool_asr=0.2500
+20:35:53 [PGD] INFO  progress 5/8 (62.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_mixed_smoke20_r4.jsonl
+20:35:53 [PGD] INFO  Saved batch [4:5]; train_pool_asr=0.5000
+20:35:59 [PGD] INFO  progress 6/8 (75.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_mixed_smoke20_r4.jsonl
+20:35:59 [PGD] INFO  Saved batch [5:6]; train_pool_asr=0.2500
+20:36:06 [PGD] INFO  progress 7/8 (87.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_mixed_smoke20_r4.jsonl
+20:36:06 [PGD] INFO  Saved batch [6:7]; train_pool_asr=0.2500
+20:36:12 [PGD] INFO  progress 8/8 (100.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\pgd_adv_pgd_mixed_smoke20_r4.jsonl
+20:36:12 [PGD] INFO  Saved batch [7:8]; train_pool_asr=0.1250
+20:36:12 [PGD] INFO  Done. 8 PNGs in workspace\results\adv_pgd_mixed_smoke20_r4

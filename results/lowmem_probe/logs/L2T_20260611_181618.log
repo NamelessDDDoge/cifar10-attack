@@ -1,0 +1,28 @@
+18:16:18 [L2T] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\logs\L2T_20260611_181618.log
+18:16:18 [L2T] INFO  Resume: 0/500 done
+18:16:18 [L2T] INFO  device=cuda
+18:16:18 [L2T] INFO  Building L2T ensemble (light models only to fit 8GB VRAM) ...
+18:16:20 [L2T] INFO    [L2T] Loading wrn16_10_cifar10 ...
+18:16:20 [L2T] INFO    [L2T] Loading seresnet110_cifar10 ...
+18:16:20 [L2T] INFO    [L2T] L2T ensemble ready (2 light models, gradient checkpointing ON)
+18:16:20 [L2T] INFO  Loading data ...
+18:16:22 [L2T] INFO  Truncating op_list: 98 -> 71 ops (removing ssm/crop/affine)
+18:16:22 [L2T] INFO  Images to process: 8
+18:16:22 [L2T] INFO  L2T_BATCH_SIZE=1 (effective=2 after transform)
+18:16:27 [L2T] INFO  progress 1/500 (0.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\l2t_adv_l2t.jsonl
+18:16:27 [L2T] DEBUG  Saved batch [0:1] (1 imgs)
+18:16:32 [L2T] INFO  progress 2/500 (0.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\l2t_adv_l2t.jsonl
+18:16:32 [L2T] DEBUG  Saved batch [1:2] (1 imgs)
+18:16:37 [L2T] INFO  progress 3/500 (0.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\l2t_adv_l2t.jsonl
+18:16:37 [L2T] DEBUG  Saved batch [2:3] (1 imgs)
+18:16:41 [L2T] INFO  progress 4/500 (0.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\l2t_adv_l2t.jsonl
+18:16:41 [L2T] DEBUG  Saved batch [3:4] (1 imgs)
+18:16:45 [L2T] INFO  progress 5/500 (1.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\l2t_adv_l2t.jsonl
+18:16:45 [L2T] DEBUG  Saved batch [4:5] (1 imgs)
+18:16:49 [L2T] INFO  progress 6/500 (1.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\l2t_adv_l2t.jsonl
+18:16:49 [L2T] DEBUG  Saved batch [5:6] (1 imgs)
+18:16:53 [L2T] INFO  progress 7/500 (1.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\l2t_adv_l2t.jsonl
+18:16:53 [L2T] DEBUG  Saved batch [6:7] (1 imgs)
+18:16:57 [L2T] INFO  progress 8/500 (1.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\l2t_adv_l2t.jsonl
+18:16:57 [L2T] DEBUG  Saved batch [7:8] (1 imgs)
+18:16:57 [L2T] INFO  Done. 8 images in C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\adv_l2t

@@ -1,0 +1,18 @@
+Implement the attack stage by REPRODUCING the top-5 algorithms from artifacts/lit-survey/ALGO_CANDIDATES.md (input from the literature branch). Use conda env `sci` for all python.
+
+REPRODUCTION POLICY (priority order): for each algorithm, `git clone` its official / best open-source GitHub repo into C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\repos\<algo>\ and apply MINIMAL adaptations only (wire in the CIFAR-10 surrogate ensemble, 32x32 inputs, eps about 8/255 pixel-space, PNG load/save, our label.txt). Do NOT rewrite algorithms from scratch. Only if a repo is genuinely unusable (broken, missing core code) may you implement from the paper - and you must document exactly why.
+
+Read FIRST: artifacts/eval-loop/EVAL_LOOP_REPORT.md and artifacts/eval-loop/eval_baseline.json (from the eval branch). They define the evaluation CLI and the SURROGATE model pool. Attack code may use ONLY the surrogate pool; the HOLDOUT pool is reserved for evaluation and must never be attacked or gradient-queried.
+
+Dataset (READ-ONLY): C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\data\images, 0.png .. 499.png, 32x32 RGB. Labels: work\eval\label.txt produced by the eval stage.
+
+For EACH of the 5 algorithms:
+1. Generate adversarial images for ALL 500 inputs into work\adv_<algo>\<name>.png - same file names, 32x32 RGB, valid pixel range, clipped to the L-inf budget.
+2. Evaluate with the EXISTING work\eval\evaluate.py on BOTH pools. Record surrogate ASR, holdout ASR, mean SSIM, Score per pool. These numbers must come from real evaluate.py runs - never compute them by hand or estimate.
+
+Then select the WINNER by HOLDOUT Score (100*ASR_holdout*SSIM) and copy its images to work\adv_images\.
+
+Write artifacts/attack/results.json: {per_algo: {<name>: {repo: url, adapted: short-note, surrogate_asr: x, holdout_asr: x, ssim: x, surrogate_score: x, holdout_score: x}}, winner: <name>, winner_holdout_score: x}.
+Write artifacts/attack/ATTACK_REPORT.md: per-algorithm repo origin + exact adaptations (file-level diff summary), the real commands + stdout/stderr including failures, the final comparison table, and how to re-run each attack with different eps/steps.
+
+HARD RULES: never modify the original images or label.txt; no mixup/cutmix/image-replacement/style-transfer/heavy-blur; no fabricated or extrapolated numbers; everything idempotent (skip finished algos whose adv dir + metrics exist). If an algorithm still fails after a reasonable effort, log the failure honestly and continue - at least 3 of 5 must complete end-to-end.

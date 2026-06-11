@@ -1,0 +1,105 @@
+{
+  "adv_dir": "C:\\Users\\admin\\Desktop\\AISafety\\_vera\\work\\adv_ilpd",
+  "surrogate_models": [
+    "resnet20_cifar10",
+    "resnet56_cifar10",
+    "wrn16_10_cifar10",
+    "densenet40_k12_cifar10",
+    "shakeshakeresnet20_2x16d_cifar10"
+  ],
+  "holdout_models": [
+    "preresnet56_cifar10",
+    "seresnet20_cifar10",
+    "nin_cifar10",
+    "pyramidnet110_a48_cifar10",
+    "ror3_110_cifar10"
+  ],
+  "surrogate": {
+    "models": {
+      "resnet20_cifar10": {
+        "accuracy": 0.04,
+        "asr": 0.96,
+        "n_correct": 20,
+        "n_attacked": 480,
+        "n_total": 500
+      },
+      "resnet56_cifar10": {
+        "accuracy": 0.11,
+        "asr": 0.89,
+        "n_correct": 55,
+        "n_attacked": 445,
+        "n_total": 500
+      },
+      "wrn16_10_cifar10": {
+        "accuracy": 0.084,
+        "asr": 0.916,
+        "n_correct": 42,
+        "n_attacked": 458,
+        "n_total": 500
+      },
+      "densenet40_k12_cifar10": {
+        "accuracy": 0.012,
+        "asr": 0.988,
+        "n_correct": 6,
+        "n_attacked": 494,
+        "n_total": 500
+      },
+      "shakeshakeresnet20_2x16d_cifar10": {
+        "accuracy": 0.166,
+        "asr": 0.834,
+        "n_correct": 83,
+        "n_attacked": 417,
+        "n_total": 500
+      }
+    },
+    "pool_asr": 0.9176,
+    "pool_ssim": 0.9426182361709892,
+    "pool_score": 86.49464935104996,
+    "n_successful": 463,
+    "n_total": 500
+  },
+  "holdout": {
+    "models": {
+      "preresnet56_cifar10": {
+        "accuracy": 0.152,
+        "asr": 0.848,
+        "n_correct": 76,
+        "n_attacked": 424,
+        "n_total": 500
+      },
+      "seresnet20_cifar10": {
+        "accuracy": 0.108,
+        "asr": 0.892,
+        "n_correct": 54,
+        "n_attacked": 446,
+        "n_total": 500
+      },
+      "nin_cifar10": {
+        "accuracy": 0.46,
+        "asr": 0.54,
+        "n_correct": 230,
+        "n_attacked": 270,
+        "n_total": 500
+      },
+      "pyramidnet110_a48_cifar10": {
+        "accuracy": 0.09,
+        "asr": 0.91,
+        "n_correct": 45,
+        "n_attacked": 455,
+        "n_total": 500
+      },
+      "ror3_110_cifar10": {
+        "accuracy": 0.18,
+        "asr": 0.82,
+        "n_correct": 90,
+        "n_attacked": 410,
+        "n_total": 500
+      }
+    },
+    "pool_asr": 0.8020000000000002,
+    "pool_ssim": 0.9427281927896486,
+    "pool_score": 75.60680106172984,
+    "n_successful": 431,
+    "n_total": 500
+  }
+}

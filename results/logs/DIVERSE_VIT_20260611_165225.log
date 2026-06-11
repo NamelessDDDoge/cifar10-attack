@@ -1,0 +1,13 @@
+16:52:25 [DIVERSE_VIT] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\DIVERSE_VIT_20260611_165225.log
+16:52:25 [DIVERSE_VIT] INFO  device=cuda
+16:52:25 [DIVERSE_VIT] INFO  out_dir=workspace\results\adv_diverse_vit_smoke
+16:52:25 [DIVERSE_VIT] INFO  steps=1 batch_size=1 eot=1
+16:52:25 [DIVERSE_VIT] INFO  cnn_count=1 vit_surrogates=weak1
+16:52:25 [DIVERSE_VIT] INFO  weight_floor=0.08 weight_temp=5.0
+16:52:29 [DIVERSE_VIT] INFO    Loading CNN surrogate pyramidnet164_a270_bn_cifar10 ...
+16:52:30 [DIVERSE_VIT] INFO    Loading ViT surrogate vit_timm_edadaltocg ...
+16:52:39 [DIVERSE_VIT] INFO  Attack pool ready: 2 models (pyramidnet164_a270_bn_cifar10, vit_timm_edadaltocg)
+16:52:39 [DIVERSE_VIT] INFO  Images to process: 2/2
+16:52:42 [DIVERSE_VIT] INFO  Saved batch [0:1]
+16:52:43 [DIVERSE_VIT] INFO  Saved batch [1:2]
+16:52:43 [DIVERSE_VIT] INFO  Done. 2 PNGs in workspace\results\adv_diverse_vit_smoke

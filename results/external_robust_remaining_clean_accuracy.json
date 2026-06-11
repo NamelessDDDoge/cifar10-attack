@@ -1,0 +1,351 @@
+{
+  "device": "cuda",
+  "label_file": "C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\data\\label.txt",
+  "image_dir": "C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\data\\images",
+  "n_models": 5,
+  "n_ok": 4,
+  "n_error": 1,
+  "results": [
+    {
+      "name": "robust_xcit_s12",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Debenedetti2022Light_XCiT-S12",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "status": "error",
+      "error": "URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)'))",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\admin\\anaconda3\\envs\\causal\\Lib\\urllib\\request.py\", line 1344, in do_open\n    h.request(req.get_method(), req.selector, req.data, headers,\n  File \"C:\\Users\\admin\\anaconda3\\envs\\causal\\Lib\\http\\client.py\", line 1338, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File \"C:\\Users\\admin\\anaconda3\\envs\\causal\\Lib\\http\\client.py\", line 1384, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File \"C:\\Users\\admin\\anaconda3\\envs\\causal\\Lib\\http\\client.py\", line 1333, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File \"C:\\Users\\admin\\anaconda3\\envs\\causal\\Lib\\http\\client.py\", line 1093, in _send_output\n    self.send(msg)\nssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\code\\eval\\external_clean_accuracy.py\", line 112, in main\n    result = evaluate_one(model_name, named_inputs, labels, device, args.batch_size)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\code\\eval\\external_clean_accuracy.py\", line 65, in evaluate_one\n    model = load_external_model(spec, device=device)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\code\\eval\\external_models.py\", line 256, in load_external_model\n    model = load_model(model_name=spec.model_id, dataset=\"cifar10\", threat_model=\"Linf\")\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\anaconda3\\envs\\causal\\Lib\\site-packages\\robustbench\\utils.py\", line 141, in load_model\n    return timm.create_model(timm_model_name,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\anaconda3\\envs\\causal\\Lib\\site-packages\\timm\\models\\_factory.py\", line 117, in create_model\n    model = create_fn(\n            ^^^^^^^^^^\nurllib.error.URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>\n"
+    },
+    {
+      "name": "robust_xcit_m12",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Debenedetti2022Light_XCiT-M12",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "clean_acc_500": 0.964,
+      "n_correct": 482,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_rebuffi_70_16_cutmix_extra",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Rebuffi2021Fixing_70_16_cutmix_extra",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.9,
+      "clean_acc_500": 0.976,
+      "n_correct": 488,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_rade_r18_extra",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Rade2021Helper_R18_extra",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "clean_acc_500": 0.956,
+      "n_correct": 478,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_sehwag_resnest152",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Sehwag2021Proxy_ResNest152",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "clean_acc_500": 0.948,
+      "n_correct": 474,
+      "n_total": 500,
+      "status": "ok"
+    }
+  ],
+  "registry": [
+    {
+      "name": "vit_hf_aaraki",
+      "family": "vit",
+      "loader": "hf_transformers",
+      "model_id": "aaraki/vit-base-patch16-224-in21k-finetuned-cifar10",
+      "source_url": "https://huggingface.co/aaraki/vit-base-patch16-224-in21k-finetuned-cifar10",
+      "expected_clean_acc": 0.9788,
+      "input_size": 224,
+      "notes": "ViT-B/16, ImageNet-21k pretrain, CIFAR-10 finetune."
+    },
+    {
+      "name": "vit_hf_nateraw",
+      "family": "vit",
+      "loader": "hf_transformers",
+      "model_id": "nateraw/vit-base-patch16-224-cifar10",
+      "source_url": "https://huggingface.co/nateraw/vit-base-patch16-224-cifar10",
+      "expected_clean_acc": 0.95,
+      "input_size": 224,
+      "notes": "ViT-B/16 CIFAR-10 finetune; model card has no numeric eval table."
+    },
+    {
+      "name": "vit_timm_edadaltocg",
+      "family": "vit",
+      "loader": "timm_hf",
+      "model_id": "hf_hub:edadaltocg/vit_base_patch16_224_in21k_ft_cifar10",
+      "source_url": "https://huggingface.co/edadaltocg/vit_base_patch16_224_in21k_ft_cifar10",
+      "expected_clean_acc": 0.9896,
+      "input_size": 224,
+      "notes": "timm ViT-B/16, CIFAR-10 finetune."
+    },
+    {
+      "name": "robust_xcit_s12",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Debenedetti2022Light_XCiT-S12",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "input_size": 32,
+      "notes": "RobustBench CIFAR-10 Linf XCiT-S12."
+    },
+    {
+      "name": "robust_xcit_m12",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Debenedetti2022Light_XCiT-M12",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "input_size": 32,
+      "notes": "RobustBench CIFAR-10 Linf XCiT-M12."
+    },
+    {
+      "name": "robust_rebuffi_70_16_cutmix_extra",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Rebuffi2021Fixing_70_16_cutmix_extra",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.9,
+      "input_size": 32,
+      "notes": "RobustBench CIFAR-10 Linf WRN 70-16, CutMix + extra data."
+    },
+    {
+      "name": "robust_rade_r18_extra",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Rade2021Helper_R18_extra",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "input_size": 32,
+      "notes": "RobustBench CIFAR-10 Linf ResNet-18 style robust model."
+    },
+    {
+      "name": "robust_sehwag_resnest152",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Sehwag2021Proxy_ResNest152",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "input_size": 32,
+      "notes": "RobustBench CIFAR-10 Linf ResNeSt-152 proxy model."
+    },
+    {
+      "name": "robust_engstrom",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Engstrom2019Robustness",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.86,
+      "input_size": 32,
+      "notes": "Classic adversarially trained CIFAR-10 Linf model."
+    },
+    {
+      "name": "chenyaofo_resnet20",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_resnet20",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.926,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_resnet32",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_resnet32",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9353,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_resnet44",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_resnet44",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9401,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_resnet56",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_resnet56",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9437,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_vgg11_bn",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_vgg11_bn",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9279,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_vgg13_bn",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_vgg13_bn",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.94,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_vgg16_bn",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_vgg16_bn",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9416,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_vgg19_bn",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_vgg19_bn",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9391,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_mobilenetv2_x0_5",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_mobilenetv2_x0_5",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9288,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_mobilenetv2_x0_75",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_mobilenetv2_x0_75",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9372,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_mobilenetv2_x1_0",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_mobilenetv2_x1_0",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9379,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_mobilenetv2_x1_4",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_mobilenetv2_x1_4",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9422,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_shufflenetv2_x0_5",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_shufflenetv2_x0_5",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9013,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_shufflenetv2_x1_0",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_shufflenetv2_x1_0",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9298,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_shufflenetv2_x1_5",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_shufflenetv2_x1_5",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9355,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_shufflenetv2_x2_0",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_shufflenetv2_x2_0",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9381,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_repvgg_a0",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_repvgg_a0",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9439,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_repvgg_a1",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_repvgg_a1",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9489,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    },
+    {
+      "name": "chenyaofo_repvgg_a2",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_repvgg_a2",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9498,
+      "input_size": 32,
+      "notes": "chenyaofo/pytorch-cifar-models CIFAR-10 pretrained checkpoint."
+    }
+  ]
+}

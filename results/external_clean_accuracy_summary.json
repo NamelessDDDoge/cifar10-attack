@@ -1,0 +1,519 @@
+{
+  "n_total_unique": 28,
+  "n_ok": 28,
+  "n_error": 0,
+  "by_family": {
+    "vit": [
+      {
+        "name": "vit_hf_aaraki",
+        "clean_acc_500": 0.994,
+        "n_correct": 497,
+        "n_total": 500
+      },
+      {
+        "name": "vit_hf_nateraw",
+        "clean_acc_500": 0.992,
+        "n_correct": 496,
+        "n_total": 500
+      },
+      {
+        "name": "vit_timm_edadaltocg",
+        "clean_acc_500": 0.99,
+        "n_correct": 495,
+        "n_total": 500
+      }
+    ],
+    "robust": [
+      {
+        "name": "robust_engstrom",
+        "clean_acc_500": 0.93,
+        "n_correct": 465,
+        "n_total": 500
+      },
+      {
+        "name": "robust_xcit_s12",
+        "clean_acc_500": 0.97,
+        "n_correct": 485,
+        "n_total": 500
+      },
+      {
+        "name": "robust_xcit_m12",
+        "clean_acc_500": 0.964,
+        "n_correct": 482,
+        "n_total": 500
+      },
+      {
+        "name": "robust_rebuffi_70_16_cutmix_extra",
+        "clean_acc_500": 0.976,
+        "n_correct": 488,
+        "n_total": 500
+      },
+      {
+        "name": "robust_rade_r18_extra",
+        "clean_acc_500": 0.956,
+        "n_correct": 478,
+        "n_total": 500
+      },
+      {
+        "name": "robust_sehwag_resnest152",
+        "clean_acc_500": 0.948,
+        "n_correct": 474,
+        "n_total": 500
+      }
+    ],
+    "chenyaofo": [
+      {
+        "name": "chenyaofo_resnet20",
+        "clean_acc_500": 0.958,
+        "n_correct": 479,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_resnet32",
+        "clean_acc_500": 0.964,
+        "n_correct": 482,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_resnet44",
+        "clean_acc_500": 0.962,
+        "n_correct": 481,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_resnet56",
+        "clean_acc_500": 0.968,
+        "n_correct": 484,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_vgg11_bn",
+        "clean_acc_500": 0.958,
+        "n_correct": 479,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_vgg13_bn",
+        "clean_acc_500": 0.958,
+        "n_correct": 479,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_vgg16_bn",
+        "clean_acc_500": 0.96,
+        "n_correct": 480,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_vgg19_bn",
+        "clean_acc_500": 0.954,
+        "n_correct": 477,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_mobilenetv2_x0_5",
+        "clean_acc_500": 0.964,
+        "n_correct": 482,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_mobilenetv2_x0_75",
+        "clean_acc_500": 0.976,
+        "n_correct": 488,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_mobilenetv2_x1_0",
+        "clean_acc_500": 0.972,
+        "n_correct": 486,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_mobilenetv2_x1_4",
+        "clean_acc_500": 0.956,
+        "n_correct": 478,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_shufflenetv2_x0_5",
+        "clean_acc_500": 0.946,
+        "n_correct": 473,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_shufflenetv2_x1_0",
+        "clean_acc_500": 0.962,
+        "n_correct": 481,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_shufflenetv2_x1_5",
+        "clean_acc_500": 0.962,
+        "n_correct": 481,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_shufflenetv2_x2_0",
+        "clean_acc_500": 0.96,
+        "n_correct": 480,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_repvgg_a0",
+        "clean_acc_500": 0.974,
+        "n_correct": 487,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_repvgg_a1",
+        "clean_acc_500": 0.968,
+        "n_correct": 484,
+        "n_total": 500
+      },
+      {
+        "name": "chenyaofo_repvgg_a2",
+        "clean_acc_500": 0.974,
+        "n_correct": 487,
+        "n_total": 500
+      }
+    ]
+  },
+  "results": [
+    {
+      "name": "vit_hf_aaraki",
+      "family": "vit",
+      "loader": "hf_transformers",
+      "model_id": "aaraki/vit-base-patch16-224-in21k-finetuned-cifar10",
+      "source_url": "https://huggingface.co/aaraki/vit-base-patch16-224-in21k-finetuned-cifar10",
+      "expected_clean_acc": 0.9788,
+      "clean_acc_500": 0.994,
+      "n_correct": 497,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "vit_hf_nateraw",
+      "family": "vit",
+      "loader": "hf_transformers",
+      "model_id": "nateraw/vit-base-patch16-224-cifar10",
+      "source_url": "https://huggingface.co/nateraw/vit-base-patch16-224-cifar10",
+      "expected_clean_acc": 0.95,
+      "clean_acc_500": 0.992,
+      "n_correct": 496,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "vit_timm_edadaltocg",
+      "family": "vit",
+      "loader": "timm_hf",
+      "model_id": "hf_hub:edadaltocg/vit_base_patch16_224_in21k_ft_cifar10",
+      "source_url": "https://huggingface.co/edadaltocg/vit_base_patch16_224_in21k_ft_cifar10",
+      "expected_clean_acc": 0.9896,
+      "clean_acc_500": 0.99,
+      "n_correct": 495,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_engstrom",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Engstrom2019Robustness",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.86,
+      "clean_acc_500": 0.93,
+      "n_correct": 465,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_xcit_s12",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Debenedetti2022Light_XCiT-S12",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "clean_acc_500": 0.97,
+      "n_correct": 485,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_xcit_m12",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Debenedetti2022Light_XCiT-M12",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "clean_acc_500": 0.964,
+      "n_correct": 482,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_rebuffi_70_16_cutmix_extra",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Rebuffi2021Fixing_70_16_cutmix_extra",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.9,
+      "clean_acc_500": 0.976,
+      "n_correct": 488,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_rade_r18_extra",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Rade2021Helper_R18_extra",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "clean_acc_500": 0.956,
+      "n_correct": 478,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "robust_sehwag_resnest152",
+      "family": "robust",
+      "loader": "robustbench",
+      "model_id": "Sehwag2021Proxy_ResNest152",
+      "source_url": "https://github.com/RobustBench/robustbench/tree/master/model_info/cifar10/Linf",
+      "expected_clean_acc": 0.88,
+      "clean_acc_500": 0.948,
+      "n_correct": 474,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_resnet20",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_resnet20",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.926,
+      "clean_acc_500": 0.958,
+      "n_correct": 479,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_resnet32",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_resnet32",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9353,
+      "clean_acc_500": 0.964,
+      "n_correct": 482,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_resnet44",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_resnet44",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9401,
+      "clean_acc_500": 0.962,
+      "n_correct": 481,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_resnet56",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_resnet56",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9437,
+      "clean_acc_500": 0.968,
+      "n_correct": 484,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_vgg11_bn",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_vgg11_bn",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9279,
+      "clean_acc_500": 0.958,
+      "n_correct": 479,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_vgg13_bn",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_vgg13_bn",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.94,
+      "clean_acc_500": 0.958,
+      "n_correct": 479,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_vgg16_bn",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_vgg16_bn",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9416,
+      "clean_acc_500": 0.96,
+      "n_correct": 480,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_vgg19_bn",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_vgg19_bn",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9391,
+      "clean_acc_500": 0.954,
+      "n_correct": 477,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_mobilenetv2_x0_5",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_mobilenetv2_x0_5",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9288,
+      "clean_acc_500": 0.964,
+      "n_correct": 482,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_mobilenetv2_x0_75",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_mobilenetv2_x0_75",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9372,
+      "clean_acc_500": 0.976,
+      "n_correct": 488,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_mobilenetv2_x1_0",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_mobilenetv2_x1_0",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9379,
+      "clean_acc_500": 0.972,
+      "n_correct": 486,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_mobilenetv2_x1_4",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_mobilenetv2_x1_4",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9422,
+      "clean_acc_500": 0.956,
+      "n_correct": 478,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_shufflenetv2_x0_5",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_shufflenetv2_x0_5",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9013,
+      "clean_acc_500": 0.946,
+      "n_correct": 473,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_shufflenetv2_x1_0",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_shufflenetv2_x1_0",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9298,
+      "clean_acc_500": 0.962,
+      "n_correct": 481,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_shufflenetv2_x1_5",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_shufflenetv2_x1_5",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9355,
+      "clean_acc_500": 0.962,
+      "n_correct": 481,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_shufflenetv2_x2_0",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_shufflenetv2_x2_0",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9381,
+      "clean_acc_500": 0.96,
+      "n_correct": 480,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_repvgg_a0",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_repvgg_a0",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9439,
+      "clean_acc_500": 0.974,
+      "n_correct": 487,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_repvgg_a1",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_repvgg_a1",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9489,
+      "clean_acc_500": 0.968,
+      "n_correct": 484,
+      "n_total": 500,
+      "status": "ok"
+    },
+    {
+      "name": "chenyaofo_repvgg_a2",
+      "family": "chenyaofo",
+      "loader": "torch_hub",
+      "model_id": "cifar10_repvgg_a2",
+      "source_url": "https://github.com/chenyaofo/pytorch-cifar-models",
+      "expected_clean_acc": 0.9498,
+      "clean_acc_500": 0.974,
+      "n_correct": 487,
+      "n_total": 500,
+      "status": "ok"
+    }
+  ]
+}

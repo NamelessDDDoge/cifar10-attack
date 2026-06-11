@@ -1,0 +1,26 @@
+18:08:38 [BSR] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\logs\BSR_20260611_180838.log
+18:08:38 [BSR] INFO  Resume: 0/500 done
+18:08:38 [BSR] INFO  device=cuda
+18:08:38 [BSR] INFO  Building surrogate ensemble ...
+18:08:41 [BSR] INFO    [BSR] Loading pyramidnet164_a270_bn_cifar10 ...
+18:08:41 [BSR] INFO    [BSR] Loading wrn16_10_cifar10 ...
+18:08:42 [BSR] INFO    [BSR] Ensemble ready (2 models)
+18:08:42 [BSR] INFO  Loading data ...
+18:08:44 [BSR] INFO  Images to process: 8
+18:08:46 [BSR] INFO  progress 1/500 (0.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\bsr_adv_bsr.jsonl
+18:08:46 [BSR] DEBUG  Saved batch [0:1] (1 imgs)
+18:08:48 [BSR] INFO  progress 2/500 (0.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\bsr_adv_bsr.jsonl
+18:08:48 [BSR] DEBUG  Saved batch [1:2] (1 imgs)
+18:08:50 [BSR] INFO  progress 3/500 (0.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\bsr_adv_bsr.jsonl
+18:08:50 [BSR] DEBUG  Saved batch [2:3] (1 imgs)
+18:08:52 [BSR] INFO  progress 4/500 (0.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\bsr_adv_bsr.jsonl
+18:08:52 [BSR] DEBUG  Saved batch [3:4] (1 imgs)
+18:08:53 [BSR] INFO  progress 5/500 (1.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\bsr_adv_bsr.jsonl
+18:08:53 [BSR] DEBUG  Saved batch [4:5] (1 imgs)
+18:08:55 [BSR] INFO  progress 6/500 (1.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\bsr_adv_bsr.jsonl
+18:08:55 [BSR] DEBUG  Saved batch [5:6] (1 imgs)
+18:08:57 [BSR] INFO  progress 7/500 (1.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\bsr_adv_bsr.jsonl
+18:08:57 [BSR] DEBUG  Saved batch [6:7] (1 imgs)
+18:08:58 [BSR] INFO  progress 8/500 (1.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\bsr_adv_bsr.jsonl
+18:08:58 [BSR] DEBUG  Saved batch [7:8] (1 imgs)
+18:08:58 [BSR] INFO  Done. 8 images in C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\adv_bsr

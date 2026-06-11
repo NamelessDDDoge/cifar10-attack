@@ -1,0 +1,7 @@
+[SIT] device=cpu
+[SIT] Building surrogate ensemble ...
+  Loading resnet20_cifar10 ... ok
+  Loading resnet56_cifar10 ... ok
+  Loading wrn16_10_cifar10 ... ok
+  Loading densenet40_k12_cifar10 ... ok
+  Loading shakeshakeresnet20_2x16d_cifar10 ... 

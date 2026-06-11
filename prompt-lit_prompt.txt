@@ -1,0 +1,12 @@
+Literature survey for an unrestricted adversarial attack competition on CIFAR-10 (context: maximize 100*ASR*SSIM against HIDDEN judge models, 32x32 RGB, perturbations must stay human-imperceptible; mixup/cutmix/image-replacement/style-transfer/heavy-blur are disallowed).
+
+STRICT RECENCY REQUIREMENT: recommend ONLY methods published in the last three years (2023 or later). Classic pre-2023 methods (MI/DI/TI-FGSM etc.) may appear only as one short background paragraph - every recommended candidate must be 2023+.
+
+Tasks:
+1. Survey recent transfer-based black-box attack literature: input-transformation methods, frequency/spectrum-domain methods, flat-minima & gradient-variance methods, ensemble-refinement methods, generative/diffusion-based methods, and anything newer that reports state-of-the-art transferability.
+2. Select AT LEAST 5 candidate algorithms that ALL satisfy: (a) an OPEN-SOURCE GitHub repo exists (official implementation preferred), (b) strong reported transfer ASR, (c) work with small L-inf budgets (eps 4-8/255) compatible with high SSIM on 32x32 images. Among candidates, prefer the best-performing AND best-maintained repos.
+3. Write artifacts/lit-survey/ALGO_CANDIDATES.md: a RANKED table with columns - algorithm, paper (venue + year), arXiv link, GitHub URL, repo health (stars / last commit, verified to exist), reported transfer performance, expected adaptation effort to CIFAR-10 32x32, recommended hyperparameters. This file is the direct work order for the next coding stage.
+4. Write artifacts/lit-survey/LITERATURE_REVIEW.md: mechanism summary per method family, why each candidate suits ASR*SSIM scoring, and an explicit list of transforms to AVOID (the disallowed list).
+5. Write artifacts/lit-survey/BIBLIOGRAPHY.bib with real entries for everything cited.
+
+INTEGRITY: every paper and every GitHub URL must actually exist - verify before writing (fetch the page or check via API). No fabricated citations, no guessed repo links.

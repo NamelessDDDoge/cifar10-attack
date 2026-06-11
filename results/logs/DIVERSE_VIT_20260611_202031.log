@@ -1,0 +1,26 @@
+20:20:31 [DIVERSE_VIT] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\DIVERSE_VIT_20260611_202031.log
+20:20:31 [DIVERSE_VIT] INFO  device=cuda
+20:20:31 [DIVERSE_VIT] INFO  out_dir=workspace\results\adv_robust_engstrom_diag8
+20:20:31 [DIVERSE_VIT] INFO  steps=20 batch_size=1 eot=1
+20:20:31 [DIVERSE_VIT] INFO  cnn_count=0 vit_surrogates=none robust_surrogates=robust_engstrom
+20:20:31 [DIVERSE_VIT] INFO  weight_floor=0.08 weight_temp=5.0
+20:20:34 [DIVERSE_VIT] INFO    Loading robust surrogate robust_engstrom ...
+20:20:36 [DIVERSE_VIT] INFO  Attack pool ready: 1 models (robust_engstrom)
+20:20:37 [DIVERSE_VIT] INFO  Images to process: 8/8
+20:20:39 [DIVERSE_VIT] INFO  progress 1/8 (12.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_robust_engstrom_diag8.jsonl
+20:20:39 [DIVERSE_VIT] INFO  Saved batch [0:1]
+20:20:40 [DIVERSE_VIT] INFO  progress 2/8 (25.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_robust_engstrom_diag8.jsonl
+20:20:40 [DIVERSE_VIT] INFO  Saved batch [1:2]
+20:20:41 [DIVERSE_VIT] INFO  progress 3/8 (37.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_robust_engstrom_diag8.jsonl
+20:20:41 [DIVERSE_VIT] INFO  Saved batch [2:3]
+20:20:42 [DIVERSE_VIT] INFO  progress 4/8 (50.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_robust_engstrom_diag8.jsonl
+20:20:42 [DIVERSE_VIT] INFO  Saved batch [3:4]
+20:20:43 [DIVERSE_VIT] INFO  progress 5/8 (62.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_robust_engstrom_diag8.jsonl
+20:20:43 [DIVERSE_VIT] INFO  Saved batch [4:5]
+20:20:44 [DIVERSE_VIT] INFO  progress 6/8 (75.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_robust_engstrom_diag8.jsonl
+20:20:44 [DIVERSE_VIT] INFO  Saved batch [5:6]
+20:20:45 [DIVERSE_VIT] INFO  progress 7/8 (87.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_robust_engstrom_diag8.jsonl
+20:20:45 [DIVERSE_VIT] INFO  Saved batch [6:7]
+20:20:46 [DIVERSE_VIT] INFO  progress 8/8 (100.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_robust_engstrom_diag8.jsonl
+20:20:46 [DIVERSE_VIT] INFO  Saved batch [7:8]
+20:20:46 [DIVERSE_VIT] INFO  Done. 8 PNGs in workspace\results\adv_robust_engstrom_diag8

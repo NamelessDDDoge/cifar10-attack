@@ -1,0 +1,3 @@
+[skip-run] ilpd: 500/500 PNGs present
+[package] ilpd: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\submissions_by_method\submission_ilpd.zip
+[run] pgn: C:\Users\admin\anaconda3\envs\causal\python.exe -u C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\run_pgn.py

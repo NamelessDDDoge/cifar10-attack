@@ -1,0 +1,4 @@
+{"ts": "2026-06-11T18:05:53", "tag": "DIVERSE_VIT", "adv_dir": "workspace\\results\\adv_diverse_vit_probe8", "processed": 2, "total": 8, "percent": 25.0, "batch": [0, 1]}
+{"ts": "2026-06-11T18:05:55", "tag": "DIVERSE_VIT", "adv_dir": "workspace\\results\\adv_diverse_vit_probe8", "processed": 4, "total": 8, "percent": 50.0, "batch": [2, 3]}
+{"ts": "2026-06-11T18:05:57", "tag": "DIVERSE_VIT", "adv_dir": "workspace\\results\\adv_diverse_vit_probe8", "processed": 6, "total": 8, "percent": 75.0, "batch": [4, 5]}
+{"ts": "2026-06-11T18:06:00", "tag": "DIVERSE_VIT", "adv_dir": "workspace\\results\\adv_diverse_vit_probe8", "processed": 8, "total": 8, "percent": 100.0, "batch": [6, 7]}

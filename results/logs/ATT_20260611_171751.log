@@ -1,0 +1,10 @@
+17:17:51 [ATT] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\ATT_20260611_171751.log
+17:17:51 [ATT] INFO  device=cuda
+17:17:51 [ATT] INFO  out_dir=workspace\results\adv_att_probe
+17:17:51 [ATT] INFO  model=vit_base_patch16_224 steps=1 eps=0.03137255 alpha=0.03137255 label_mode=auto
+17:17:55 [ATT] INFO  Loading ATT source model vit_base_patch16_224
+17:21:14 [ATT] INFO  Loading data and true labels
+17:21:14 [ATT] INFO  Images to process: 1/1
+17:21:17 [ATT] INFO  progress 1/1 (100.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_probe.jsonl
+17:21:17 [ATT] INFO  Saved batch [0:1]; max_linf=0.031373
+17:21:17 [ATT] INFO  Done. 1 PNGs in workspace\results\adv_att_probe

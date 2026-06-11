@@ -1,0 +1,48 @@
+17:46:24 [ATT] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\ATT_20260611_174624.log
+17:46:24 [ATT] INFO  device=cuda
+17:46:24 [ATT] INFO  out_dir=workspace\results\adv_att_steps20_probe
+17:46:24 [ATT] INFO  model=vit_base_patch16_224 steps=20 eps=0.03137255 alpha=0.00156863 label_mode=auto
+17:46:29 [ATT] INFO  Loading ATT source model vit_base_patch16_224
+17:46:37 [ATT] INFO  Loading data and true labels
+17:46:37 [ATT] INFO  Images to process: 20/20
+17:46:41 [ATT] INFO  progress 1/20 (5.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:46:41 [ATT] INFO  Saved batch [0:1]; max_linf=0.031373
+17:46:44 [ATT] INFO  progress 2/20 (10.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:46:44 [ATT] INFO  Saved batch [1:2]; max_linf=0.031373
+17:46:48 [ATT] INFO  progress 3/20 (15.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:46:48 [ATT] INFO  Saved batch [2:3]; max_linf=0.031373
+17:46:51 [ATT] INFO  progress 4/20 (20.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:46:51 [ATT] INFO  Saved batch [3:4]; max_linf=0.031373
+17:46:56 [ATT] INFO  progress 5/20 (25.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:46:56 [ATT] INFO  Saved batch [4:5]; max_linf=0.031373
+17:47:00 [ATT] INFO  progress 6/20 (30.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:00 [ATT] INFO  Saved batch [5:6]; max_linf=0.031373
+17:47:05 [ATT] INFO  progress 7/20 (35.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:05 [ATT] INFO  Saved batch [6:7]; max_linf=0.031373
+17:47:10 [ATT] INFO  progress 8/20 (40.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:10 [ATT] INFO  Saved batch [7:8]; max_linf=0.031373
+17:47:14 [ATT] INFO  progress 9/20 (45.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:14 [ATT] INFO  Saved batch [8:9]; max_linf=0.031373
+17:47:18 [ATT] INFO  progress 10/20 (50.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:18 [ATT] INFO  Saved batch [9:10]; max_linf=0.031373
+17:47:22 [ATT] INFO  progress 11/20 (55.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:22 [ATT] INFO  Saved batch [10:11]; max_linf=0.031373
+17:47:26 [ATT] INFO  progress 12/20 (60.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:26 [ATT] INFO  Saved batch [11:12]; max_linf=0.031373
+17:47:30 [ATT] INFO  progress 13/20 (65.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:30 [ATT] INFO  Saved batch [12:13]; max_linf=0.031373
+17:47:34 [ATT] INFO  progress 14/20 (70.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:34 [ATT] INFO  Saved batch [13:14]; max_linf=0.031373
+17:47:37 [ATT] INFO  progress 15/20 (75.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:37 [ATT] INFO  Saved batch [14:15]; max_linf=0.031373
+17:47:41 [ATT] INFO  progress 16/20 (80.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:41 [ATT] INFO  Saved batch [15:16]; max_linf=0.031373
+17:47:44 [ATT] INFO  progress 17/20 (85.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:44 [ATT] INFO  Saved batch [16:17]; max_linf=0.031373
+17:47:48 [ATT] INFO  progress 18/20 (90.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:48 [ATT] INFO  Saved batch [17:18]; max_linf=0.031373
+17:47:51 [ATT] INFO  progress 19/20 (95.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:51 [ATT] INFO  Saved batch [18:19]; max_linf=0.031373
+17:47:56 [ATT] INFO  progress 20/20 (100.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_steps20_probe.jsonl
+17:47:56 [ATT] INFO  Saved batch [19:20]; max_linf=0.031373
+17:47:56 [ATT] INFO  Done. 20 PNGs in workspace\results\adv_att_steps20_probe

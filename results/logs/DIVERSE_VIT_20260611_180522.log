@@ -1,0 +1,22 @@
+18:05:22 [DIVERSE_VIT] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\DIVERSE_VIT_20260611_180522.log
+18:05:22 [DIVERSE_VIT] INFO  device=cuda
+18:05:22 [DIVERSE_VIT] INFO  out_dir=workspace\results\adv_diverse_vit_probe8
+18:05:22 [DIVERSE_VIT] INFO  steps=5 batch_size=2 eot=1
+18:05:22 [DIVERSE_VIT] INFO  cnn_count=2 vit_surrogates=all
+18:05:22 [DIVERSE_VIT] INFO  weight_floor=0.08 weight_temp=5.0
+18:05:25 [DIVERSE_VIT] INFO    Loading CNN surrogate pyramidnet164_a270_bn_cifar10 ...
+18:05:26 [DIVERSE_VIT] INFO    Loading CNN surrogate wrn16_10_cifar10 ...
+18:05:26 [DIVERSE_VIT] INFO    Loading ViT surrogate vit_hf_aaraki ...
+18:05:44 [DIVERSE_VIT] INFO    Loading ViT surrogate vit_hf_nateraw ...
+18:05:45 [DIVERSE_VIT] INFO    Loading ViT surrogate vit_timm_edadaltocg ...
+18:05:47 [DIVERSE_VIT] INFO  Attack pool ready: 5 models (pyramidnet164_a270_bn_cifar10, wrn16_10_cifar10, vit_hf_aaraki, vit_hf_nateraw, vit_timm_edadaltocg)
+18:05:48 [DIVERSE_VIT] INFO  Images to process: 8/8
+18:05:53 [DIVERSE_VIT] INFO  progress 2/8 (25.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_diverse_vit_probe8.jsonl
+18:05:53 [DIVERSE_VIT] INFO  Saved batch [0:2]
+18:05:55 [DIVERSE_VIT] INFO  progress 4/8 (50.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_diverse_vit_probe8.jsonl
+18:05:55 [DIVERSE_VIT] INFO  Saved batch [2:4]
+18:05:57 [DIVERSE_VIT] INFO  progress 6/8 (75.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_diverse_vit_probe8.jsonl
+18:05:57 [DIVERSE_VIT] INFO  Saved batch [4:6]
+18:06:00 [DIVERSE_VIT] INFO  progress 8/8 (100.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\diverse_vit_adv_diverse_vit_probe8.jsonl
+18:06:00 [DIVERSE_VIT] INFO  Saved batch [6:8]
+18:06:00 [DIVERSE_VIT] INFO  Done. 8 PNGs in workspace\results\adv_diverse_vit_probe8

@@ -1,0 +1,31 @@
+# model weights (too large for GitHub)
+models/
+**/*.pth
+**/*.pt
+
+# large data archives
+data/images.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# experiment outputs (optional — keep results/ in git)
+# results/
+
+# jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+Build the COMPLETE and CORRECT local evaluation loop for an unrestricted adversarial attack competition on CIFAR-10. Use conda env `sci` for all python (`conda run -n sci python ...`).
+
+Competition scoring (ground truth for the whole project):
+- Objective M = 100 * ASR * SSIM. ASR = fraction of the 500 samples misclassified by HIDDEN judge models; SSIM = mean structural similarity (successful samples) between adversarial and original image.
+- Subjective H: image must stay the SAME recognizable object. DISALLOWED: mixup, cutmix, replacing with another image, style transfer, heavy blur, extreme noise.
+- Judges are hidden, so this is a black-box / transfer setting. Small imperceptible perturbations beat large ones.
+
+Dataset (READ-ONLY, never modify): 500 PNG images, 32x32 RGB, at C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\data\images named 0.png .. 499.png. No labels provided.
+
+Build everything under the STABLE reusable dir C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\eval\ so later runs reuse it. Every step idempotent: cache downloaded weights, label.txt, clean predictions; skip work whose cached output exists.
+
+Deliverables:
+1. work\eval\evaluate.py - a single parameterized, re-runnable script: `evaluate.py --adv-dir <dir> [--models surrogate|holdout|all] [--json-out <path>]`. It must:
+   a. Load TWO DISJOINT pools of pretrained CIFAR-10 classifiers (prefer pytorchcv get_model(..., pretrained=True)): a SURROGATE pool (attack stage will use these) and a HOLDOUT pool (never exposed to attack code - proxy for the hidden judges). Document the exact split.
+   b. Generate work\eval\label.txt by majority-vote prediction over ALL models on the CLEAN images. Format exactly one line per image: `<name>.png <class_int>`, names 0..499 sorted numerically. Cache and reuse.
+   c. Compute and emit JSON: ASR per pool vs label.txt, per-model accuracy/ASR, mean SSIM over successfully-attacked samples (skimage.metrics.structural_similarity), Score = 100*ASR*SSIM per pool.
+2. Sanity checks - actually RUN them and record real output:
+   - clean images evaluated against themselves: ASR ~ 0, SSIM = 1, Score ~ 0
+   - uniform random noise at eps=8/255: a weak reference baseline
+   Save both to artifacts/eval-loop/eval_baseline.json as {clean: {...}, random_noise: {...}, surrogate_models: [...], holdout_models: [...]}.
+3. artifacts/eval-loop/EVAL_LOOP_REPORT.md: design rationale (why the holdout split estimates transfer to hidden judges), exact CLI usage for the downstream attack stage, the real commands + stdout/stderr you ran (do not hide failures), and the sanity-check numbers.
+
+HARD RULES: never modify the original images; never hand-edit label.txt; log honestly; if a dependency is missing pip install it into env sci and log it; no infinite retry loops.

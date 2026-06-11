@@ -1,0 +1,26 @@
+18:11:05 [AWT] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\logs\AWT_20260611_181105.log
+18:11:05 [AWT] INFO  Resume: 0/500 done
+18:11:05 [AWT] INFO  device=cuda
+18:11:05 [AWT] INFO  Building AWT ensemble (primary unfrozen for SAM) ...
+18:11:07 [AWT] INFO    [AWT] Loading pyramidnet164_a270_bn_cifar10 ...
+18:11:08 [AWT] INFO    [AWT] Loading wrn16_10_cifar10 ...
+18:11:08 [AWT] INFO    [AWT] AWT ensemble ready (2 models, primary unfrozen for SAM)
+18:11:08 [AWT] INFO  Loading data ...
+18:11:10 [AWT] INFO  Images to process: 8
+18:11:46 [AWT] INFO  progress 1/500 (0.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\awt_adv_awt.jsonl
+18:11:46 [AWT] DEBUG  Saved batch [0:1] (1 imgs)
+18:12:21 [AWT] INFO  progress 2/500 (0.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\awt_adv_awt.jsonl
+18:12:21 [AWT] DEBUG  Saved batch [1:2] (1 imgs)
+18:12:57 [AWT] INFO  progress 3/500 (0.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\awt_adv_awt.jsonl
+18:12:57 [AWT] DEBUG  Saved batch [2:3] (1 imgs)
+18:13:33 [AWT] INFO  progress 4/500 (0.80%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\awt_adv_awt.jsonl
+18:13:33 [AWT] DEBUG  Saved batch [3:4] (1 imgs)
+18:14:08 [AWT] INFO  progress 5/500 (1.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\awt_adv_awt.jsonl
+18:14:08 [AWT] DEBUG  Saved batch [4:5] (1 imgs)
+18:14:43 [AWT] INFO  progress 6/500 (1.20%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\awt_adv_awt.jsonl
+18:14:43 [AWT] DEBUG  Saved batch [5:6] (1 imgs)
+18:15:19 [AWT] INFO  progress 7/500 (1.40%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\awt_adv_awt.jsonl
+18:15:19 [AWT] DEBUG  Saved batch [6:7] (1 imgs)
+18:15:54 [AWT] INFO  progress 8/500 (1.60%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\progress\awt_adv_awt.jsonl
+18:15:54 [AWT] DEBUG  Saved batch [7:8] (1 imgs)
+18:15:54 [AWT] INFO  Done. 8 images in C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\lowmem_probe\adv_awt

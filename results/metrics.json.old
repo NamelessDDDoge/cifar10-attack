@@ -1,0 +1,9 @@
+{
+  "algorithm": "ILPD",
+  "avg_asr": 0.832,
+  "mean_ssim": 0.9444,
+  "score": 78.57,
+  "n_models": 20,
+  "n_universal_success": 262,
+  "n_total": 500
+}

@@ -1,0 +1,192 @@
+{
+  "adv_dir": "workspace\\results\\adv_diverse_mixed_probe4",
+  "label_file": "C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\data\\label.txt",
+  "limit": 8,
+  "n_total": 8,
+  "n_missing_adv": 0,
+  "mean_ssim": 0.9462078213691711,
+  "surrogate_models": [
+    "pyramidnet164_a270_bn_cifar10",
+    "wrn16_10_cifar10",
+    "densenet190_k40_bc_cifar10",
+    "seresnet110_cifar10",
+    "resnext29_16x64d_cifar10",
+    "diaresnet56_cifar10"
+  ],
+  "holdout_models": [
+    "pyramidnet236_a220_bn_cifar10",
+    "pyramidnet110_a270_cifar10",
+    "pyramidnet272_a200_bn_cifar10",
+    "densenet250_k24_bc_cifar10",
+    "pyramidnet110_a84_cifar10",
+    "wrn20_10_1bit_cifar10",
+    "wrn28_10_cifar10",
+    "resnet272bn_cifar10",
+    "pyramidnet200_a240_bn_cifar10",
+    "resnext272_1x64d_cifar10",
+    "seresnet164bn_cifar10",
+    "wrn20_10_32bit_cifar10",
+    "wrn40_8_cifar10",
+    "preresnet1001_cifar10"
+  ],
+  "external_models": [
+    "vit_hf_aaraki",
+    "vit_hf_nateraw",
+    "vit_timm_edadaltocg",
+    "robust_xcit_s12",
+    "robust_xcit_m12",
+    "robust_rebuffi_70_16_cutmix_extra",
+    "robust_rade_r18_extra",
+    "robust_sehwag_resnest152",
+    "robust_engstrom",
+    "chenyaofo_resnet20",
+    "chenyaofo_resnet32",
+    "chenyaofo_resnet44",
+    "chenyaofo_resnet56",
+    "chenyaofo_vgg11_bn",
+    "chenyaofo_vgg13_bn",
+    "chenyaofo_vgg16_bn",
+    "chenyaofo_vgg19_bn",
+    "chenyaofo_mobilenetv2_x0_5",
+    "chenyaofo_mobilenetv2_x0_75",
+    "chenyaofo_mobilenetv2_x1_0",
+    "chenyaofo_mobilenetv2_x1_4",
+    "chenyaofo_shufflenetv2_x0_5",
+    "chenyaofo_shufflenetv2_x1_0",
+    "chenyaofo_shufflenetv2_x1_5",
+    "chenyaofo_shufflenetv2_x2_0",
+    "chenyaofo_repvgg_a0",
+    "chenyaofo_repvgg_a1",
+    "chenyaofo_repvgg_a2"
+  ],
+  "external_pools": {
+    "vit": [
+      "vit_hf_aaraki",
+      "vit_hf_nateraw",
+      "vit_timm_edadaltocg"
+    ],
+    "robust": [
+      "robust_xcit_s12",
+      "robust_xcit_m12",
+      "robust_rebuffi_70_16_cutmix_extra",
+      "robust_rade_r18_extra",
+      "robust_sehwag_resnest152",
+      "robust_engstrom"
+    ],
+    "chenyaofo": [
+      "chenyaofo_resnet20",
+      "chenyaofo_resnet32",
+      "chenyaofo_resnet44",
+      "chenyaofo_resnet56",
+      "chenyaofo_vgg11_bn",
+      "chenyaofo_vgg13_bn",
+      "chenyaofo_vgg16_bn",
+      "chenyaofo_vgg19_bn",
+      "chenyaofo_mobilenetv2_x0_5",
+      "chenyaofo_mobilenetv2_x0_75",
+      "chenyaofo_mobilenetv2_x1_0",
+      "chenyaofo_mobilenetv2_x1_4",
+      "chenyaofo_shufflenetv2_x0_5",
+      "chenyaofo_shufflenetv2_x1_0",
+      "chenyaofo_shufflenetv2_x1_5",
+      "chenyaofo_shufflenetv2_x2_0",
+      "chenyaofo_repvgg_a0",
+      "chenyaofo_repvgg_a1",
+      "chenyaofo_repvgg_a2"
+    ]
+  },
+  "holdout": {
+    "models": [
+      "pyramidnet236_a220_bn_cifar10",
+      "pyramidnet110_a270_cifar10",
+      "pyramidnet272_a200_bn_cifar10",
+      "densenet250_k24_bc_cifar10",
+      "pyramidnet110_a84_cifar10",
+      "wrn20_10_1bit_cifar10",
+      "wrn28_10_cifar10",
+      "resnet272bn_cifar10",
+      "pyramidnet200_a240_bn_cifar10",
+      "resnext272_1x64d_cifar10",
+      "seresnet164bn_cifar10",
+      "wrn20_10_32bit_cifar10",
+      "wrn40_8_cifar10",
+      "preresnet1001_cifar10"
+    ],
+    "per_model": {
+      "pyramidnet236_a220_bn_cifar10": {
+        "asr": 0.5,
+        "n_attacked": 4,
+        "n_total": 8
+      },
+      "pyramidnet110_a270_cifar10": {
+        "asr": 0.375,
+        "n_attacked": 3,
+        "n_total": 8
+      },
+      "pyramidnet272_a200_bn_cifar10": {
+        "asr": 0.375,
+        "n_attacked": 3,
+        "n_total": 8
+      },
+      "densenet250_k24_bc_cifar10": {
+        "asr": 0.25,
+        "n_attacked": 2,
+        "n_total": 8
+      },
+      "pyramidnet110_a84_cifar10": {
+        "asr": 0.375,
+        "n_attacked": 3,
+        "n_total": 8
+      },
+      "wrn20_10_1bit_cifar10": {
+        "asr": 0.25,
+        "n_attacked": 2,
+        "n_total": 8
+      },
+      "wrn28_10_cifar10": {
+        "asr": 0.25,
+        "n_attacked": 2,
+        "n_total": 8
+      },
+      "resnet272bn_cifar10": {
+        "asr": 0.375,
+        "n_attacked": 3,
+        "n_total": 8
+      },
+      "pyramidnet200_a240_bn_cifar10": {
+        "asr": 0.5,
+        "n_attacked": 4,
+        "n_total": 8
+      },
+      "resnext272_1x64d_cifar10": {
+        "asr": 0.25,
+        "n_attacked": 2,
+        "n_total": 8
+      },
+      "seresnet164bn_cifar10": {
+        "asr": 0.25,
+        "n_attacked": 2,
+        "n_total": 8
+      },
+      "wrn20_10_32bit_cifar10": {
+        "asr": 0.375,
+        "n_attacked": 3,
+        "n_total": 8
+      },
+      "wrn40_8_cifar10": {
+        "asr": 0.375,
+        "n_attacked": 3,
+        "n_total": 8
+      },
+      "preresnet1001_cifar10": {
+        "asr": 0.5,
+        "n_attacked": 4,
+        "n_total": 8
+      }
+    },
+    "pool_asr": 0.35714285714285715,
+    "pool_ssim": 0.9462078213691711,
+    "pool_score": 33.7931364774704,
+    "n_universal_success": 1
+  }
+}

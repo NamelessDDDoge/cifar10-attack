@@ -1,0 +1,24 @@
+17:21:38 [ATT] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\ATT_20260611_172138.log
+17:21:38 [ATT] INFO  device=cuda
+17:21:38 [ATT] INFO  out_dir=workspace\results\adv_att_smoke
+17:21:38 [ATT] INFO  model=vit_base_patch16_224 steps=10 eps=0.03137255 alpha=0.00313725 label_mode=auto
+17:21:43 [ATT] INFO  Loading ATT source model vit_base_patch16_224
+17:21:51 [ATT] INFO  Loading data and true labels
+17:21:51 [ATT] INFO  Images to process: 8/8
+17:21:56 [ATT] INFO  progress 1/8 (12.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_smoke.jsonl
+17:21:56 [ATT] INFO  Saved batch [0:1]; max_linf=0.031373
+17:22:00 [ATT] INFO  progress 2/8 (25.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_smoke.jsonl
+17:22:00 [ATT] INFO  Saved batch [1:2]; max_linf=0.031373
+17:22:03 [ATT] INFO  progress 3/8 (37.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_smoke.jsonl
+17:22:03 [ATT] INFO  Saved batch [2:3]; max_linf=0.031373
+17:22:08 [ATT] INFO  progress 4/8 (50.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_smoke.jsonl
+17:22:08 [ATT] INFO  Saved batch [3:4]; max_linf=0.031373
+17:22:12 [ATT] INFO  progress 5/8 (62.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_smoke.jsonl
+17:22:12 [ATT] INFO  Saved batch [4:5]; max_linf=0.031373
+17:22:16 [ATT] INFO  progress 6/8 (75.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_smoke.jsonl
+17:22:16 [ATT] INFO  Saved batch [5:6]; max_linf=0.031373
+17:22:21 [ATT] INFO  progress 7/8 (87.50%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_smoke.jsonl
+17:22:21 [ATT] INFO  Saved batch [6:7]; max_linf=0.031373
+17:22:25 [ATT] INFO  progress 8/8 (100.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\att_adv_att_smoke.jsonl
+17:22:25 [ATT] INFO  Saved batch [7:8]; max_linf=0.031373
+17:22:25 [ATT] INFO  Done. 8 PNGs in workspace\results\adv_att_smoke

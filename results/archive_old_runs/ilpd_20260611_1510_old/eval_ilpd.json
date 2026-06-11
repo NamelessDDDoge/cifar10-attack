@@ -1,0 +1,171 @@
+{
+  "adv_dir": "C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\results\\adv_ilpd",
+  "label_file": "C:\\\u6587\u4ef6\\ME\\AISCI\\Dr.Researcher\\projects\\aisafety-cifar10-attack\\workspace\\data\\label.txt",
+  "n_total": 500,
+  "n_missing_adv": 0,
+  "mean_ssim": 0.9437939270734786,
+  "surrogate_models": [
+    "pyramidnet164_a270_bn_cifar10",
+    "wrn16_10_cifar10",
+    "densenet190_k40_bc_cifar10",
+    "seresnet110_cifar10",
+    "resnext29_16x64d_cifar10",
+    "diaresnet56_cifar10"
+  ],
+  "holdout_models": [
+    "pyramidnet236_a220_bn_cifar10",
+    "pyramidnet110_a270_cifar10",
+    "pyramidnet272_a200_bn_cifar10",
+    "densenet250_k24_bc_cifar10",
+    "pyramidnet110_a84_cifar10",
+    "wrn20_10_1bit_cifar10",
+    "wrn28_10_cifar10",
+    "resnet272bn_cifar10",
+    "pyramidnet200_a240_bn_cifar10",
+    "resnext272_1x64d_cifar10",
+    "seresnet164bn_cifar10",
+    "wrn20_10_32bit_cifar10",
+    "wrn40_8_cifar10",
+    "preresnet1001_cifar10"
+  ],
+  "surrogate": {
+    "models": [
+      "pyramidnet164_a270_bn_cifar10",
+      "wrn16_10_cifar10",
+      "densenet190_k40_bc_cifar10",
+      "seresnet110_cifar10",
+      "resnext29_16x64d_cifar10",
+      "diaresnet56_cifar10"
+    ],
+    "per_model": {
+      "pyramidnet164_a270_bn_cifar10": {
+        "asr": 0.886,
+        "n_attacked": 443,
+        "n_total": 500
+      },
+      "wrn16_10_cifar10": {
+        "asr": 0.914,
+        "n_attacked": 457,
+        "n_total": 500
+      },
+      "densenet190_k40_bc_cifar10": {
+        "asr": 0.902,
+        "n_attacked": 451,
+        "n_total": 500
+      },
+      "seresnet110_cifar10": {
+        "asr": 0.908,
+        "n_attacked": 454,
+        "n_total": 500
+      },
+      "resnext29_16x64d_cifar10": {
+        "asr": 0.998,
+        "n_attacked": 499,
+        "n_total": 500
+      },
+      "diaresnet56_cifar10": {
+        "asr": 0.822,
+        "n_attacked": 411,
+        "n_total": 500
+      }
+    },
+    "pool_asr": 0.9049999999999999,
+    "pool_ssim": 0.9437939270734786,
+    "pool_score": 85.41335040014981,
+    "n_universal_success": 396
+  },
+  "holdout": {
+    "models": [
+      "pyramidnet236_a220_bn_cifar10",
+      "pyramidnet110_a270_cifar10",
+      "pyramidnet272_a200_bn_cifar10",
+      "densenet250_k24_bc_cifar10",
+      "pyramidnet110_a84_cifar10",
+      "wrn20_10_1bit_cifar10",
+      "wrn28_10_cifar10",
+      "resnet272bn_cifar10",
+      "pyramidnet200_a240_bn_cifar10",
+      "resnext272_1x64d_cifar10",
+      "seresnet164bn_cifar10",
+      "wrn20_10_32bit_cifar10",
+      "wrn40_8_cifar10",
+      "preresnet1001_cifar10"
+    ],
+    "per_model": {
+      "pyramidnet236_a220_bn_cifar10": {
+        "asr": 0.906,
+        "n_attacked": 453,
+        "n_total": 500
+      },
+      "pyramidnet110_a270_cifar10": {
+        "asr": 0.884,
+        "n_attacked": 442,
+        "n_total": 500
+      },
+      "pyramidnet272_a200_bn_cifar10": {
+        "asr": 0.898,
+        "n_attacked": 449,
+        "n_total": 500
+      },
+      "densenet250_k24_bc_cifar10": {
+        "asr": 0.882,
+        "n_attacked": 441,
+        "n_total": 500
+      },
+      "pyramidnet110_a84_cifar10": {
+        "asr": 0.88,
+        "n_attacked": 440,
+        "n_total": 500
+      },
+      "wrn20_10_1bit_cifar10": {
+        "asr": 0.82,
+        "n_attacked": 410,
+        "n_total": 500
+      },
+      "wrn28_10_cifar10": {
+        "asr": 0.894,
+        "n_attacked": 447,
+        "n_total": 500
+      },
+      "resnet272bn_cifar10": {
+        "asr": 0.844,
+        "n_attacked": 422,
+        "n_total": 500
+      },
+      "pyramidnet200_a240_bn_cifar10": {
+        "asr": 0.9,
+        "n_attacked": 450,
+        "n_total": 500
+      },
+      "resnext272_1x64d_cifar10": {
+        "asr": 0.73,
+        "n_attacked": 365,
+        "n_total": 500
+      },
+      "seresnet164bn_cifar10": {
+        "asr": 0.812,
+        "n_attacked": 406,
+        "n_total": 500
+      },
+      "wrn20_10_32bit_cifar10": {
+        "asr": 0.892,
+        "n_attacked": 446,
+        "n_total": 500
+      },
+      "wrn40_8_cifar10": {
+        "asr": 0.886,
+        "n_attacked": 443,
+        "n_total": 500
+      },
+      "preresnet1001_cifar10": {
+        "asr": 0.868,
+        "n_attacked": 434,
+        "n_total": 500
+      }
+    },
+    "pool_asr": 0.8639999999999999,
+    "pool_ssim": 0.9437939270734786,
+    "pool_score": 81.54379529914854,
+    "n_universal_success": 343
+  }
+}

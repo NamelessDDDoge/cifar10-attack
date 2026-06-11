@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\package_methods.py", line 134, in <module>
+    main()
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\package_methods.py", line 114, in main
+    code = run_method(method, log_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\package_methods.py", line 93, in run_method
+    print(line, end="", flush=True)
+UnicodeEncodeError: 'gbk' codec can't encode character '\ufffd' in position 34: illegal multibyte sequence

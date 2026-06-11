@@ -1,0 +1,8 @@
+{"ts": "2026-06-11T20:35:28", "tag": "PGD", "adv_dir": "workspace\\results\\adv_pgd_mixed_smoke20_r4", "processed": 1, "total": 8, "percent": 12.5, "batch": [0, 0], "train_pool_asr": 0.25}
+{"ts": "2026-06-11T20:35:34", "tag": "PGD", "adv_dir": "workspace\\results\\adv_pgd_mixed_smoke20_r4", "processed": 2, "total": 8, "percent": 25.0, "batch": [1, 1], "train_pool_asr": 0.25}
+{"ts": "2026-06-11T20:35:41", "tag": "PGD", "adv_dir": "workspace\\results\\adv_pgd_mixed_smoke20_r4", "processed": 3, "total": 8, "percent": 37.5, "batch": [2, 2], "train_pool_asr": 0.5}
+{"ts": "2026-06-11T20:35:47", "tag": "PGD", "adv_dir": "workspace\\results\\adv_pgd_mixed_smoke20_r4", "processed": 4, "total": 8, "percent": 50.0, "batch": [3, 3], "train_pool_asr": 0.25}
+{"ts": "2026-06-11T20:35:53", "tag": "PGD", "adv_dir": "workspace\\results\\adv_pgd_mixed_smoke20_r4", "processed": 5, "total": 8, "percent": 62.5, "batch": [4, 4], "train_pool_asr": 0.5}
+{"ts": "2026-06-11T20:35:59", "tag": "PGD", "adv_dir": "workspace\\results\\adv_pgd_mixed_smoke20_r4", "processed": 6, "total": 8, "percent": 75.0, "batch": [5, 5], "train_pool_asr": 0.25}
+{"ts": "2026-06-11T20:36:06", "tag": "PGD", "adv_dir": "workspace\\results\\adv_pgd_mixed_smoke20_r4", "processed": 7, "total": 8, "percent": 87.5, "batch": [6, 6], "train_pool_asr": 0.25}
+{"ts": "2026-06-11T20:36:12", "tag": "PGD", "adv_dir": "workspace\\results\\adv_pgd_mixed_smoke20_r4", "processed": 8, "total": 8, "percent": 100.0, "batch": [7, 7], "train_pool_asr": 0.125}

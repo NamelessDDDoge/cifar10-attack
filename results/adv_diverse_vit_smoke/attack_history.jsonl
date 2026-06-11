@@ -1,0 +1,2 @@
+{"step": 1, "loss": -9.053244590759277, "asr": [0.0, 0.0], "weights": [0.5, 0.5], "batch": [0, 0], "models": ["pyramidnet164_a270_bn_cifar10", "vit_timm_edadaltocg"]}
+{"step": 1, "loss": -7.13034725189209, "asr": [0.0, 0.0], "weights": [0.5, 0.5], "batch": [1, 1], "models": ["pyramidnet164_a270_bn_cifar10", "vit_timm_edadaltocg"]}

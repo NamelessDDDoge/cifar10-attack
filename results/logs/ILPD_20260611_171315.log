@@ -1,0 +1,114 @@
+17:13:15 [ILPD] INFO  Log file: C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\logs\ILPD_20260611_171315.log
+17:13:15 [ILPD] INFO  Resume: 0/500 done
+17:13:15 [ILPD] INFO  device=cuda
+17:13:15 [ILPD] INFO  Building models ...
+17:13:18 [ILPD] INFO    Loading pyramidnet164_a270_bn_cifar10 (primary) ...
+17:13:19 [ILPD] INFO    Loading wrn16_10_cifar10 ...
+17:13:20 [ILPD] INFO    Loading densenet190_k40_bc_cifar10 ...
+17:13:21 [ILPD] INFO    Loading seresnet110_cifar10 ...
+17:13:21 [ILPD] INFO    Loading resnext29_16x64d_cifar10 ...
+17:13:24 [ILPD] INFO    Loading diaresnet56_cifar10 ...
+17:13:25 [ILPD] INFO    Models ready: 1 primary + 5 extra
+17:13:25 [ILPD] INFO  Loading data ...
+17:13:26 [ILPD] INFO  Images to process: 500
+17:13:45 [ILPD] INFO  progress 10/500 (2.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:13:45 [ILPD] DEBUG  Saved batch [0:10] (10 imgs)
+17:13:55 [ILPD] INFO  progress 20/500 (4.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:13:55 [ILPD] DEBUG  Saved batch [10:20] (10 imgs)
+17:14:00 [ILPD] INFO  progress 30/500 (6.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:00 [ILPD] DEBUG  Saved batch [20:30] (10 imgs)
+17:14:04 [ILPD] INFO  progress 40/500 (8.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:04 [ILPD] DEBUG  Saved batch [30:40] (10 imgs)
+17:14:07 [ILPD] INFO  progress 50/500 (10.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:07 [ILPD] DEBUG  Saved batch [40:50] (10 imgs)
+17:14:11 [ILPD] INFO  progress 60/500 (12.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:11 [ILPD] DEBUG  Saved batch [50:60] (10 imgs)
+17:14:14 [ILPD] INFO  progress 70/500 (14.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:14 [ILPD] DEBUG  Saved batch [60:70] (10 imgs)
+17:14:20 [ILPD] INFO  progress 80/500 (16.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:20 [ILPD] DEBUG  Saved batch [70:80] (10 imgs)
+17:14:35 [ILPD] INFO  progress 90/500 (18.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:35 [ILPD] DEBUG  Saved batch [80:90] (10 imgs)
+17:14:43 [ILPD] INFO  progress 100/500 (20.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:43 [ILPD] DEBUG  Saved batch [90:100] (10 imgs)
+17:14:52 [ILPD] INFO  progress 110/500 (22.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:14:52 [ILPD] DEBUG  Saved batch [100:110] (10 imgs)
+17:15:07 [ILPD] INFO  progress 120/500 (24.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:15:07 [ILPD] DEBUG  Saved batch [110:120] (10 imgs)
+17:15:24 [ILPD] INFO  progress 130/500 (26.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:15:24 [ILPD] DEBUG  Saved batch [120:130] (10 imgs)
+17:15:39 [ILPD] INFO  progress 140/500 (28.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:15:39 [ILPD] DEBUG  Saved batch [130:140] (10 imgs)
+17:15:53 [ILPD] INFO  progress 150/500 (30.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:15:53 [ILPD] DEBUG  Saved batch [140:150] (10 imgs)
+17:16:07 [ILPD] INFO  progress 160/500 (32.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:16:07 [ILPD] DEBUG  Saved batch [150:160] (10 imgs)
+17:16:18 [ILPD] INFO  progress 170/500 (34.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:16:18 [ILPD] DEBUG  Saved batch [160:170] (10 imgs)
+17:16:34 [ILPD] INFO  progress 180/500 (36.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:16:34 [ILPD] DEBUG  Saved batch [170:180] (10 imgs)
+17:16:49 [ILPD] INFO  progress 190/500 (38.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:16:49 [ILPD] DEBUG  Saved batch [180:190] (10 imgs)
+17:17:04 [ILPD] INFO  progress 200/500 (40.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:04 [ILPD] DEBUG  Saved batch [190:200] (10 imgs)
+17:17:10 [ILPD] INFO  progress 210/500 (42.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:10 [ILPD] DEBUG  Saved batch [200:210] (10 imgs)
+17:17:14 [ILPD] INFO  progress 220/500 (44.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:14 [ILPD] DEBUG  Saved batch [210:220] (10 imgs)
+17:17:18 [ILPD] INFO  progress 230/500 (46.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:18 [ILPD] DEBUG  Saved batch [220:230] (10 imgs)
+17:17:22 [ILPD] INFO  progress 240/500 (48.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:22 [ILPD] DEBUG  Saved batch [230:240] (10 imgs)
+17:17:27 [ILPD] INFO  progress 250/500 (50.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:27 [ILPD] DEBUG  Saved batch [240:250] (10 imgs)
+17:17:32 [ILPD] INFO  progress 260/500 (52.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:32 [ILPD] DEBUG  Saved batch [250:260] (10 imgs)
+17:17:37 [ILPD] INFO  progress 270/500 (54.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:37 [ILPD] DEBUG  Saved batch [260:270] (10 imgs)
+17:17:41 [ILPD] INFO  progress 280/500 (56.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:41 [ILPD] DEBUG  Saved batch [270:280] (10 imgs)
+17:17:46 [ILPD] INFO  progress 290/500 (58.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:46 [ILPD] DEBUG  Saved batch [280:290] (10 imgs)
+17:17:51 [ILPD] INFO  progress 300/500 (60.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:51 [ILPD] DEBUG  Saved batch [290:300] (10 imgs)
+17:17:55 [ILPD] INFO  progress 310/500 (62.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:55 [ILPD] DEBUG  Saved batch [300:310] (10 imgs)
+17:17:59 [ILPD] INFO  progress 320/500 (64.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:17:59 [ILPD] DEBUG  Saved batch [310:320] (10 imgs)
+17:18:04 [ILPD] INFO  progress 330/500 (66.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:04 [ILPD] DEBUG  Saved batch [320:330] (10 imgs)
+17:18:07 [ILPD] INFO  progress 340/500 (68.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:07 [ILPD] DEBUG  Saved batch [330:340] (10 imgs)
+17:18:12 [ILPD] INFO  progress 350/500 (70.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:12 [ILPD] DEBUG  Saved batch [340:350] (10 imgs)
+17:18:16 [ILPD] INFO  progress 360/500 (72.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:16 [ILPD] DEBUG  Saved batch [350:360] (10 imgs)
+17:18:22 [ILPD] INFO  progress 370/500 (74.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:22 [ILPD] DEBUG  Saved batch [360:370] (10 imgs)
+17:18:27 [ILPD] INFO  progress 380/500 (76.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:27 [ILPD] DEBUG  Saved batch [370:380] (10 imgs)
+17:18:32 [ILPD] INFO  progress 390/500 (78.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:32 [ILPD] DEBUG  Saved batch [380:390] (10 imgs)
+17:18:46 [ILPD] INFO  progress 400/500 (80.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:46 [ILPD] DEBUG  Saved batch [390:400] (10 imgs)
+17:18:54 [ILPD] INFO  progress 410/500 (82.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:54 [ILPD] DEBUG  Saved batch [400:410] (10 imgs)
+17:18:59 [ILPD] INFO  progress 420/500 (84.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:18:59 [ILPD] DEBUG  Saved batch [410:420] (10 imgs)
+17:19:03 [ILPD] INFO  progress 430/500 (86.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:19:03 [ILPD] DEBUG  Saved batch [420:430] (10 imgs)
+17:19:07 [ILPD] INFO  progress 440/500 (88.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:19:07 [ILPD] DEBUG  Saved batch [430:440] (10 imgs)
+17:19:11 [ILPD] INFO  progress 450/500 (90.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:19:11 [ILPD] DEBUG  Saved batch [440:450] (10 imgs)
+17:19:15 [ILPD] INFO  progress 460/500 (92.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:19:15 [ILPD] DEBUG  Saved batch [450:460] (10 imgs)
+17:19:20 [ILPD] INFO  progress 470/500 (94.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:19:20 [ILPD] DEBUG  Saved batch [460:470] (10 imgs)
+17:19:24 [ILPD] INFO  progress 480/500 (96.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:19:24 [ILPD] DEBUG  Saved batch [470:480] (10 imgs)
+17:19:29 [ILPD] INFO  progress 490/500 (98.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:19:29 [ILPD] DEBUG  Saved batch [480:490] (10 imgs)
+17:19:33 [ILPD] INFO  progress 500/500 (100.00%) -> C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\progress\ilpd_adv_ilpd.jsonl
+17:19:33 [ILPD] DEBUG  Saved batch [490:500] (10 imgs)
+17:19:33 [ILPD] INFO  Done. 500 images in C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\results\adv_ilpd

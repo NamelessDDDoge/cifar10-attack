@@ -1,0 +1,76 @@
+
+[BSR] images:   0%|          | 0/500 [00:00<?, ?img/s]
+[BSR] images:   0%|          | 0/500 [00:08<?, ?img/s]
+Traceback (most recent call last):
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\run_bsr.py", line 93, in <module>
+    main()
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\run_bsr.py", line 82, in main
+    delta  = attacker(img_b, lbl_b)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\repos\TransferAttack\transferattack\attack.py", line 169, in __call__
+    return self.forward(*input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\repos\TransferAttack\transferattack\attack.py", line 88, in forward
+    logits = self.get_logits(self.transform(data+delta, momentum=momentum))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\repos\TransferAttack\transferattack\attack.py", line 108, in get_logits
+    return self.model(x)
+           ^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\run_utils.py", line 116, in forward
+    return sum(m(x_n) for m in self.models) / len(self.models)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\文件\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\run_utils.py", line 116, in <genexpr>
+    return sum(m(x_n) for m in self.models) / len(self.models)
+               ^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\pytorchcv\models\pyramidnet_cifar.py", line 87, in forward
+    x = self.features(x)
+        ^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\container.py", line 253, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\container.py", line 253, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\pytorchcv\models\pyramidnet.py", line 135, in forward
+    identity = F.pad(identity, pad=self.identity_pad_width)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\anaconda3\envs\causal\Lib\site-packages\torch\nn\functional.py", line 5418, in pad
+    return torch._C._nn.pad(input, pad, mode, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+ERROR conda.cli.main_run:execute(142): `conda run python C:\�ļ�\ME\AISCI\Dr.Researcher\projects\aisafety-cifar10-attack\workspace\code\attack\run_bsr.py` failed. (See above for error)

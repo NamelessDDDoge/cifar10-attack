@@ -1,0 +1,8 @@
+{"ts": "2026-06-11T17:21:56", "tag": "ATT", "adv_dir": "workspace\\results\\adv_att_smoke", "processed": 1, "total": 8, "percent": 12.5, "batch": [0, 0], "max_linf": 0.03137257695198059}
+{"ts": "2026-06-11T17:22:00", "tag": "ATT", "adv_dir": "workspace\\results\\adv_att_smoke", "processed": 2, "total": 8, "percent": 25.0, "batch": [1, 1], "max_linf": 0.03137257695198059}
+{"ts": "2026-06-11T17:22:03", "tag": "ATT", "adv_dir": "workspace\\results\\adv_att_smoke", "processed": 3, "total": 8, "percent": 37.5, "batch": [2, 2], "max_linf": 0.03137257695198059}
+{"ts": "2026-06-11T17:22:08", "tag": "ATT", "adv_dir": "workspace\\results\\adv_att_smoke", "processed": 4, "total": 8, "percent": 50.0, "batch": [3, 3], "max_linf": 0.03137257695198059}
+{"ts": "2026-06-11T17:22:12", "tag": "ATT", "adv_dir": "workspace\\results\\adv_att_smoke", "processed": 5, "total": 8, "percent": 62.5, "batch": [4, 4], "max_linf": 0.03137257695198059}
+{"ts": "2026-06-11T17:22:16", "tag": "ATT", "adv_dir": "workspace\\results\\adv_att_smoke", "processed": 6, "total": 8, "percent": 75.0, "batch": [5, 5], "max_linf": 0.03137257695198059}
+{"ts": "2026-06-11T17:22:21", "tag": "ATT", "adv_dir": "workspace\\results\\adv_att_smoke", "processed": 7, "total": 8, "percent": 87.5, "batch": [6, 6], "max_linf": 0.03137257695198059}
+{"ts": "2026-06-11T17:22:25", "tag": "ATT", "adv_dir": "workspace\\results\\adv_att_smoke", "processed": 8, "total": 8, "percent": 100.0, "batch": [7, 7], "max_linf": 0.03137257695198059}
